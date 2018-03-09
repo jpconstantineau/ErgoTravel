@@ -1,7 +1,7 @@
 ErgoTravel
 ====
 
-![ErgoTravel](https://imgur.com/H9t6Q7b)
+![ErgoTravel](https://i.imgur.com/H9t6Q7b.png)
 
 
 A split ergo 4x6 keyboard with 2 or 3 thumb keys and extra inner macro keys designed by Pierre Constantineau. [More info on the GitHub Repo]().
