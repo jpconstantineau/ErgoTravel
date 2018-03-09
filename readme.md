@@ -30,8 +30,8 @@ QTY   Description                                 Supplier
  
 I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to order the following components and combine the shipping with the PCBs (LCSC, JLCPCB and EasyEDA are sister companies):
 
-|QTY |  Description                            |  LCSC Part No |
-|: --- :|: --- |: --- :|
+| QTY |  Description                            |  LCSC Part No |
+| : --- : | : --- | : --- : |
 | 2  |  4.7KΩ (4701) ±1%                         |   [C58678](https://lcsc.com/product-detail/Metal-Film-Resistor-TH_4-7KR-4701-1_C58678.html) |
 | 2  |  PJ-320D-A TRRS Connector                 |  [C95562](https://lcsc.com/product-detail/Audio-Connectors_PJ-320D-A_C95562.html) |
 | 2  |  Switch 5.2*5.2*1.5 250gf Copper head     |  [C92584](https://lcsc.com/product-detail/Tactile-Switches_Switch-5-2-5-2-1-5-250gf-Copper-head_C92584.html) |
