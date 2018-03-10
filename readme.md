@@ -12,21 +12,21 @@ Hardware Availability: [github](https://github.com/jpconstantineau)
 
 
 === 
-Parts
+## Parts to order
 
 For a Plate Mount:
-```
-QTY   Description                                 Supplier
- 2    PCBs									     AllPCB, JLCPCB, EasyEDA
- 2    Top Plates                                  AllPCB, JLCPCB, EasyEDA
- 2    Bottom Plates                               AllPCB, JLCPCB, EasyEDA
-```
+| QTY |  Description                            |  Supplier |
+| :---: | :--- | :---: |
+| 2  |  PCBs		|							     [AllPCB](https://www.allpcb.com/online_quote.html?hidLength=&hidWidth=&num=&txtSelNum=&Layersquote=2&Thicknessquote=1.6), [JLCPCB](https://jlcpcb.com/quote), [EasyEDA](https://easyeda.com/order)  |
+| 2  |  Top Plates   |                               AllPCB, JLCPCB, EasyEDA  |
+| 2  |  Bottom Plates   |                            AllPCB, JLCPCB, EasyEDA  |
 
 For a PCB Mount:
-```
-QTY   Description                                 Supplier
- 4    PCBs									      AllPCB, JLCPCB, EasyEDA
-```
+
+| QTY |  Description                            |  Supplier |
+| :---: | :--- | :---: |
+| 4  |  PCBs		|							     AllPCB, JLCPCB, EasyEDA  |
+
  
 I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to order the following components and combine the shipping with the PCBs (LCSC, JLCPCB and EasyEDA are sister companies):
 
@@ -42,13 +42,12 @@ I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to orde
 
 
 
-```
-QTY   Description                                 Supplier
- 54   Cherry MX or Compatible Mechanical Switch   Aliexpress 
- 2    2u Cherry MX PCB Mounted Stabilizers		  Aliexpress
- 2    Pro Micro Clone 5V                          Aliexpress
- 12   M2*4 screws (if using PCB Mount)            Aliexpress
- 6    M2*6 standoffs (if using PCB Mount)         Aliexpress
- 18   M2*4 screws (if using Plate Mount)          Aliexpress
- 9    M2*12 standoffs  (if using Plate Mount)     Aliexpress
- ```
+| QTY |  Description                            |  Supplier |
+| :---: | :--- | :---: |
+| 54 |  Cherry MX or Compatible Mechanical Switch  | Aliexpress |
+| 2  |  2u Cherry MX PCB Mounted Stabilizers	|	  Aliexpress |
+| 2  |  Pro Micro Clone 5V                       |   Aliexpress |
+| 12 |  M2*4 screws (if using PCB Mount)          |  Aliexpress |
+| 6  |  M2*6 standoffs (if using PCB Mount)       |  Aliexpress |
+| 18 |  M2*4 screws (if using Plate Mount)        |  Aliexpress |
+| 9  |  M2*12 standoffs  (if using Plate Mount)   |  Aliexpress |
