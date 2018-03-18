@@ -4,11 +4,11 @@ ErgoTravel
 ![ErgoTravel](https://i.imgur.com/H9t6Q7b.png)
 
 
-A split ergo 4x6 keyboard with 2 or 3 thumb keys and extra inner macro keys designed by Pierre Constantineau. [More info on the GitHub Repo]().
+A split ergo 4x6 keyboard with 2 or 3 thumb keys and extra inner macro keys designed by Pierre Constantineau. [More info on the GitHub Repo](https://github.com/jpconstantineau/ErgoTravel).
 
 Keyboard Maintainer: [jpconstantineau](https://github.com/jpconstantineau)  
 Hardware Supported: Pro Micro  
-Hardware Availability: [github](https://github.com/jpconstantineau)
+Hardware Availability: [github](https://github.com/jpconstantineau/ErgoTravel)
 
 
 === 
@@ -19,14 +19,14 @@ For a Plate Mount:
 | QTY |  Description                            |  Supplier |
 | :---: | :--- | :---: |
 | 2  |  PCBs		|							     [AllPCB](https://www.allpcb.com/online_quote.html?hidLength=&hidWidth=&num=&txtSelNum=&Layersquote=2&Thicknessquote=1.6), [JLCPCB](https://jlcpcb.com/quote), [EasyEDA](https://easyeda.com/order)  |
-| 2  |  Top Plates   |                               AllPCB, JLCPCB, EasyEDA  |
-| 2  |  Bottom Plates   |                            AllPCB, JLCPCB, EasyEDA  |
+| 2  |  Top Plates   |							     [AllPCB](https://www.allpcb.com/online_quote.html?hidLength=&hidWidth=&num=&txtSelNum=&Layersquote=2&Thicknessquote=1.6), [JLCPCB](https://jlcpcb.com/quote), [EasyEDA](https://easyeda.com/order)  |
+| 2  |  Bottom Plates   |							     [AllPCB](https://www.allpcb.com/online_quote.html?hidLength=&hidWidth=&num=&txtSelNum=&Layersquote=2&Thicknessquote=1.6), [JLCPCB](https://jlcpcb.com/quote), [EasyEDA](https://easyeda.com/order)  |
 
 For a PCB Mount:
 
 | QTY |  Description                            |  Supplier |
 | :---: | :--- | :---: |
-| 4  |  PCBs		|							     AllPCB, JLCPCB, EasyEDA  |
+| 4  |  PCBs		|							     [AllPCB](https://www.allpcb.com/online_quote.html?hidLength=&hidWidth=&num=&txtSelNum=&Layersquote=2&Thicknessquote=1.6), [JLCPCB](https://jlcpcb.com/quote), [EasyEDA](https://easyeda.com/order)  |
 
  
 I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to order the following components and combine the shipping with the PCBs (LCSC, JLCPCB and EasyEDA are sister companies):
