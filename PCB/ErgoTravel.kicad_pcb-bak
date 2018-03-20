@@ -2,7 +2,7 @@
 
   (general
     (links 384)
-    (no_connects 0)
+    (no_connects 1)
     (area 60.96 39.37 226.695001 143.510001)
     (thickness 1.6)
     (drawings 131)
@@ -14,10 +14,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
-    (33 F.Adhes user)
+    (33 F.Adhes user hide)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -4170,7 +4170,7 @@
   (gr_arc (start 78.105 127.635) (end 78.105 130.81) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 75.565 53.975) (end 74.93 53.975) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 205.105 49.53) (end 205.105 46.355) (angle 78.69006753) (layer Edge.Cuts) (width 0.15))
-  (gr_text "ErgoTravel V1.0\n" (at 144.145 124.46) (layer F.SilkS)
+  (gr_text "ErgoTravel V1.0\n" (at 146.05 124.46) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_text "Copyright 2018 - MIT License" (at 150.495 128.27) (layer F.SilkS)
