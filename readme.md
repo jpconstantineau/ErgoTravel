@@ -10,7 +10,7 @@ Keyboard Maintainer: [jpconstantineau](https://github.com/jpconstantineau)
 Hardware Supported: Pro Micro  
 Hardware Availability: [github](https://github.com/jpconstantineau/ErgoTravel)
 
-![QMK Firmware](http://qmk.fm/assets/images/badge-community-light.svg =250px)
+![QMK Firmware](http://qmk.fm/assets/images/badge-community-light.svg =250x)
 
 === 
 ## Parts to order
