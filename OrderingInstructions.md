@@ -1,5 +1,7 @@
 ErgoTravel
 ====
+NOTE: THIS IS STILL A WORK IN PROGRESS
+
 ## Parts to order
 
 For a Plate Mount:
