@@ -60,7 +60,7 @@ The number of switches and stabilizers depends on the desired configuration for 
 
 To avoid building two left or two right halfes, place the PCBs side by side with the thumbs facing toward each other.
 
-PLACE IMAGE HERE
+![diodes](/images/PCB_side_by_side.PNG)
 
 ### Step 2: Decide which half will be the master.
 
@@ -70,7 +70,7 @@ Note: In the end, it doesn't matter much if you have the resistors on the slave.
 Divide the components in two halves and keep with each PCBs.
 Put the 2 resistors with the master half.
 
-PLACE IMAGE HERE
+![diodes](/images/Parts_electronics.PNG)
 
 Note: Unlike some other keyboards, there are no jumpers to configure for the left or right halves.
 
@@ -83,7 +83,7 @@ Black line on the diode lines up with the square pad and white line on the PCB s
 
 ![diodes](/images/diodes.png)
 
-Bands must match the bands on the silkscreen.
+Bands must match the bands on the silkscreen and the square pads.
 
 Take care that the diodes stay outside the switch footprints. This should be easy since there is lots of room in between switches.
 
@@ -92,7 +92,7 @@ If diodes are on the other side, it should still "work" fine; however, there is 
 ### Step 4: Install the resistors
 If you are working on the Master Half, install the resistors near the top, on the top side.
 
-PLACE IMAGE HERE
+![diodes](/images/Resistors.PNG)
 
 If you are working on the slave side, continue to the next step. The slave side does not have resistors.  
 If resistors are on installed the slave instead of the master, it should still work fine.
@@ -102,7 +102,7 @@ If resistors are on installed the slave instead of the master, it should still w
 
 Install Reset switch on the bottom side of the boards. This is a surface mount switch.  Apply some solder to one of the 4 pads. Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Solder the other 3 connections.
 
-PLACE IMAGE HERE
+![diodes](/images/ResetSW.PNG)
 
 Some recommend to put some solder on the 4 pads.  I find it easier to align the switch if only 1 pad has solder pre-applied.  Using tweezers, you can hold the switch and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
 
@@ -110,7 +110,7 @@ Some recommend to put some solder on the 4 pads.  I find it easier to align the 
 
 Install TRRS Connector on the bottom side of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection. Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Solder the other 3 connections.
 
-PLACE IMAGE HERE
+![diodes](/images/TRRS.PNG)
 
 Some recommend to put some solder on the 4 pads.  I find it easier to align the connector if only 1 pad has solder pre-applied.  Using tweezers, you can hold it and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
 
@@ -152,10 +152,21 @@ When installing the stabilizers, the twin legs as shown here:
 
 ![stabilizer](/images/stabilizerlegs.png)
 
-are installed towards the "outside" of the PCB.
+are installed towards the "outside" of the PCB.  Note that the hole diameters for installing the stabilizers are not the same between the two sides.  The stabilizer should only fir one way.
 
-To install the Stabilizer, first pass the small single hooks (on the wire side) through the larger holes (towards the center of the board).  Then press down on the other side of the stabilizers (outside edge of the PCB) to engage the clips within the smaller holes.  You may have to squeeze gently on the twin legs for them to go through the hole.  Once through, the stabilizer will "snap" in place.
+![stabilizer](/images/Stab_holes.PNG)
+
+To install the Stabilizer, first pass the small single hooks (on the wire side) through the larger holes (towards the center of the board).  
+
+![stabilizer](/images/Stab_install_1.PNG)
+
+Then press down on the other side of the stabilizers (outside edge of the PCB) to engage the clips within the smaller holes.  You may have to squeeze gently on the twin legs for them to go through the hole.  Once through, the stabilizer will "snap" in place.
  
+![stabilizer](/images/Stab_install_2.PNG) 
+
+The legs should be fully snapped in place for the stabilizer to work properly.
+
+![stabilizer](/images/Stab_install_3.PNG) 
 
 ---
 
