@@ -1,7 +1,38 @@
-ErgoTravel Build Instructions
+# ErgoTravel Build Instructions
+
+## Electronic Parts List
+
+[] 2 PCBs
+
+[] 2 5V/16MHz Pro Micros
+[] 2 Sockets
+
+[] 2 4.7k resistors. Through Hole and SMD supported
+[] 2 surface mount TRRS Jacks (PJ-320D-A)
+[] 2 surface mount reset switches (switch 5.25.21.5 250gf Copper head)
+[] 54 1N4148 Diodes. Through Hole and SMD supported
 
 
-# Install PCB Components
+## PCB Sandwich Case Parts List
+
+[] 2 Top PCB Plates
+[] 2 Bottom PCB Plates
+[] 18 M2x4mm screws
+[] 9 M2x12mm standoffs
+
+
+## PCB Mount Case Parts List
+
+[] 2 PCBs (same PCBs will be used for Bottom Plates)
+[] 12 M2x4mm screws
+[] 6 M2x12mm standoffs
+
+
+
+# Prepare PCBs and Install Components
+
+
+
 
 Install all diodes on top side.  Bands must match the bands on the silkscreen. Take care that the diodes stay outside the switch footprints.
 
