@@ -118,6 +118,35 @@ PLACE IMAGE HERE
 ### Step 8: Validate your soldering job and test the diodes...
 Validate that the diodes were installed correctly.  Once the switches are installed through the top plate, it will be close to impossible to replace the diodes without unsoldering everything.
 
+### Step 9: Return to Step 3 and continue with the other half.
+Only the first half is done...  Rinse and repeat...
+
+---
+
+## Decide on Layout and Install Stabilizers
+
+### Step 1: Decide on your layout.
+Depending on whether you want 4x1U, 2x1U+1x2U or 1x2U+2x1U or 2x2U, you will require 0, 1 or 2 2U PCB Mount stabilizers. 
+
+
+### Step 2: Prepare Stabilizer
+Depending on where you obtaned your stabilizers, you may have to put them together before installing them.
+When assembled, they look like this:
+
+![stabilizer](/images/stabilizer.png)
+
+### Step 3: Install Stabilizer in PCB
+If you want to lubricate your stabilizer or do anything special to them, now is the time...
+
+When installing the stabilizers, the twin legs as shown here:
+
+![stabilizer](/images/stabilizerlegs.png)
+
+are installed towards the "outside" of the PCB.
+
+To install the Stabilizer, first pass the small single hooks (on the wire side) through the larger holes (towards the center of the board).  Then press down on the other side of the stabilizers (outside edge of the PCB) to engage the clips within the smaller holes.  You may have to squeeze gently on the twin legs for them to go through the hole.  Once through, the stabilizer will "snap" in place.
+ 
+
 ---
 
 ## Install Switches
