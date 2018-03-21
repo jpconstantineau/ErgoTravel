@@ -38,7 +38,7 @@ I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to orde
 | 54 |  Cherry MX or Compatible Mechanical Switch  | Aliexpress |
 | 2  |  2u Cherry MX PCB Mounted Stabilizers	|	  Aliexpress |
 | 2  |  Pro Micro Clone 5V                       |   Aliexpress |
-| 12 |  M2*4 screws (if using PCB Mount)          |  Aliexpress |
-| 6  |  M2*6 standoffs (if using PCB Mount)       |  Aliexpress |
+| 14 |  M2*4 screws (if using PCB Mount)          |  Aliexpress |
+| 7  |  M2*6 standoffs (if using PCB Mount)       |  Aliexpress |
 | 18 |  M2*4 screws (if using Plate Mount)        |  Aliexpress |
 | 9  |  M2*12 standoffs  (if using Plate Mount)   |  Aliexpress |

@@ -3,9 +3,9 @@
   (general
     (links 384)
     (no_connects 1)
-    (area 60.96 39.37 226.695001 143.510001)
+    (area 74.854999 46.279999 213.435001 139.775001)
     (thickness 1.6)
-    (drawings 131)
+    (drawings 137)
     (tracks 366)
     (zones 0)
     (modules 70)
@@ -14,10 +14,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
-    (33 F.Adhes user hide)
+    (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -1600,13 +1600,13 @@
     )
   )
 
-  (module Connectors:PJ320D_3.5mm_Jack (layer F.Cu) (tedit 58E89DF9) (tstamp 5A9C738D)
+  (module Connectors:PJ320D_3.5mm_Jack (layer F.Cu) (tedit 5AB1D630) (tstamp 5A9C738D)
     (at 195.58 52.4 270)
     (descr "Headphones with microphone connector, 3.5mm, 4 pins.")
     (tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
     (path /5A9D8FCA)
     (attr smd)
-    (fp_text reference J2 (at 0.075 -6.35 270) (layer F.SilkS)
+    (fp_text reference J2 (at 0.075 -6.35 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Audio-Jack-4 (at -0.025 6.35 270) (layer F.Fab)
@@ -1651,13 +1651,13 @@
     (pad "" np_thru_hole circle (at 2.225 0 270) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:PJ320D_3.5mm_Jack (layer B.Cu) (tedit 58E89DF9) (tstamp 5A9C7397)
+  (module Connectors:PJ320D_3.5mm_Jack (layer B.Cu) (tedit 5AB1D635) (tstamp 5A9C7397)
     (at 195.58 52.4 270)
     (descr "Headphones with microphone connector, 3.5mm, 4 pins.")
     (tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
     (path /5A9D9202)
     (attr smd)
-    (fp_text reference J3 (at 0.075 6.35 270) (layer B.SilkS)
+    (fp_text reference J3 (at 0.075 6.35 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Audio-Jack-4 (at -0.025 -6.35 270) (layer B.Fab)
@@ -1702,15 +1702,15 @@
     (pad "" np_thru_hole circle (at 2.225 0 270) (size 1.5 1.5) (drill 1.5) (layers *.Cu *.Mask))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73A2)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D655) (tstamp 5A9C73A2)
     (at 84.444288 63.943812)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C50E0)
-    (fp_text reference K1 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K1 (at 0.010712 4.636188) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -1764,15 +1764,15 @@
       (net 2 "Net-(D1-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73AD)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D681) (tstamp 5A9C73AD)
     (at 84.424884 83.05551)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5B6B)
-    (fp_text reference K2 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K2 (at -0.22 4.57449) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -1826,15 +1826,15 @@
       (net 4 "Net-(D2-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73B8)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D6A1) (tstamp 5A9C73B8)
     (at 84.424884 102.10767)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5BBB)
-    (fp_text reference K3 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K3 (at -0.22 4.57233) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -1888,15 +1888,15 @@
       (net 6 "Net-(D3-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73C3)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D705) (tstamp 5A9C73C3)
     (at 84.424884 121.100292)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5C00)
-    (fp_text reference K4 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K4 (at -0.22 4.629708) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -1950,15 +1950,15 @@
       (net 8 "Net-(D4-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73CE)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D5CB) (tstamp 5A9C73CE)
     (at 103.536582 61.62183)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C59F4)
-    (fp_text reference K5 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K5 (at -0.031582 4.41817) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2012,15 +2012,15 @@
       (net 9 "Net-(D5-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73D9)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D68B) (tstamp 5A9C73D9)
     (at 103.536582 80.733528)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5C42)
-    (fp_text reference K6 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K6 (at -0.22 4.356472) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2074,15 +2074,15 @@
       (net 10 "Net-(D6-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73E4)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D6A9) (tstamp 5A9C73E4)
     (at 103.536582 99.666612)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5C9D)
-    (fp_text reference K7 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K7 (at -0.22 4.473388) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2136,15 +2136,15 @@
       (net 11 "Net-(D7-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73EF)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D712) (tstamp 5A9C73EF)
     (at 103.477044 118.77831)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5CEF)
-    (fp_text reference K8 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K8 (at -0.22 4.41169) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2198,15 +2198,15 @@
       (net 12 "Net-(D8-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C73FA)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D65E) (tstamp 5A9C73FA)
     (at 122.529204 59.121234)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5A55)
-    (fp_text reference K9 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K9 (at 0.025796 4.378766) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2260,15 +2260,15 @@
       (net 13 "Net-(D9-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7405)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D697) (tstamp 5A9C7405)
     (at 122.529204 78.29247)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5D3E)
-    (fp_text reference K10 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K10 (at -0.22 4.25753) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2322,15 +2322,15 @@
       (net 14 "Net-(D10-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7410)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D6AF) (tstamp 5A9C7410)
     (at 122.469666 97.285092)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5E6F)
-    (fp_text reference K11 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K11 (at -0.22 4.314908) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2384,15 +2384,15 @@
       (net 15 "Net-(D11-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C741B)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D71D) (tstamp 5A9C741B)
     (at 122.569472 116.39679)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5EEE)
-    (fp_text reference K12 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K12 (at -0.22 4.25321) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2446,15 +2446,15 @@
       (net 16 "Net-(D12-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7426)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D746) (tstamp 5A9C7426)
     (at 141.660172 56.799252)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5A9D)
-    (fp_text reference K13 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K13 (at -0.055172 3.525748) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2508,15 +2508,15 @@
       (net 17 "Net-(D13-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7431)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D771) (tstamp 5A9C7431)
     (at 141.621632 75.851412)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5DA2)
-    (fp_text reference K14 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K14 (at -0.22 4.793588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2570,15 +2570,15 @@
       (net 18 "Net-(D14-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C743C)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D785) (tstamp 5A9C743C)
     (at 141.640902 94.96311)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5F4A)
-    (fp_text reference K15 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K15 (at -0.22 4.09689) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2632,15 +2632,15 @@
       (net 19 "Net-(D15-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7447)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D793) (tstamp 5A9C7447)
     (at 141.581364 114.01527)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5FCF)
-    (fp_text reference K16 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K16 (at -0.22 4.72973) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2694,15 +2694,15 @@
       (net 20 "Net-(D16-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7452)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D839) (tstamp 5A9C7452)
     (at 160.633524 59.180772)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5AE0)
-    (fp_text reference K17 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K17 (at -0.22 4.319228) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2756,15 +2756,15 @@
       (net 21 "Net-(D17-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C745D)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7C8) (tstamp 5A9C745D)
     (at 160.633524 78.29247)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5E0B)
-    (fp_text reference K18 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K18 (at -0.22 4.25753) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2818,15 +2818,15 @@
       (net 22 "Net-(D18-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7468)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7A4) (tstamp 5A9C7468)
     (at 160.633524 97.285092)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C6031)
-    (fp_text reference K19 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K19 (at -0.22 4.314908) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2880,15 +2880,15 @@
       (net 23 "Net-(D19-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7473)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D79C) (tstamp 5A9C7473)
     (at 167.242242 118.421082 350)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C60B6)
-    (fp_text reference K20 (at -0.22 2.79 350) (layer F.SilkS) hide
+    (fp_text reference K20 (at -0.141143 4.222578 350) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572 350) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572 350) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -2942,15 +2942,15 @@
       (net 24 "Net-(D20-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C747E)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D828) (tstamp 5A9C747E)
     (at 179.685684 61.562292)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C5B28)
-    (fp_text reference K21 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K21 (at 0.019316 4.477708) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3004,15 +3004,15 @@
       (net 25 "Net-(D21-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7489)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7CF) (tstamp 5A9C7489)
     (at 179.745222 80.67399)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C6478)
-    (fp_text reference K22 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K22 (at -0.22 4.41601) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3066,15 +3066,15 @@
       (net 26 "Net-(D22-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C7494)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7B3) (tstamp 5A9C7494)
     (at 179.685684 99.666612)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C64FD)
-    (fp_text reference K23 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K23 (at -0.22 4.473388) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3128,15 +3128,15 @@
       (net 27 "Net-(D23-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C749F)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7F5) (tstamp 5A9C749F)
     (at 190.402524 126.22056 60)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C656D)
-    (fp_text reference K24 (at -0.22 2.79 60) (layer F.SilkS) hide
+    (fp_text reference K24 (at -0.371055 4.726193 60) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572 60) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572 60) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3190,15 +3190,15 @@
       (net 28 "Net-(D24-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C74B5)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D816) (tstamp 5A9C74B5)
     (at 198.777978 66.292754)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C6614)
-    (fp_text reference K26 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K26 (at -0.22 4.827246) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3252,15 +3252,15 @@
       (net 29 "Net-(D25-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C74C0)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D806) (tstamp 5A9C74C0)
     (at 198.737844 85.377492)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C66A0)
-    (fp_text reference K27 (at -0.22 2.79) (layer F.SilkS) hide
+    (fp_text reference K27 (at -0.22 4.157508) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3314,15 +3314,15 @@
       (net 30 "Net-(D26-Pad2)"))
   )
 
-  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 59986325) (tstamp 5A9C74CB)
+  (module footprints:Mx_Alps_100-dualside (layer F.Cu) (tedit 5AB1D7EB) (tstamp 5A9C74CB)
     (at 199.968008 109.675399 60)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9C671D)
-    (fp_text reference K28 (at -0.22 2.79 60) (layer F.SilkS) hide
+    (fp_text reference K28 (at -0.739248 4.158788 60) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572 60) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572 60) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -4.572 6.35) (end -6.35 6.35) (layer B.SilkS) (width 0.381))
@@ -3376,7 +3376,7 @@
       (net 31 "Net-(D27-Pad2)"))
   )
 
-  (module Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010 (layer F.Cu) (tedit 0) (tstamp 5A9C74D3)
+  (module Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010 (layer F.Cu) (tedit 5AB1D890) (tstamp 5A9C74D3)
     (at 160.57626 49.53 180)
     (descr "Resistor, SMD and THT, universal, 0805 to 1206,RM10,  Hand soldering, Rev A, Date 25 Jun 2010,")
     (tags "Resistor, SMD and THT, universal, 0805 to 1206, RM10, Hand soldering, Rev A, Date 25 Jun 2010,")
@@ -3428,13 +3428,13 @@
       (net 36 scl))
   )
 
-  (module footprints:SW_TACT_ALPS_SKQGABE010 (layer F.Cu) (tedit 596E092A) (tstamp 5A9C74E3)
+  (module footprints:SW_TACT_ALPS_SKQGABE010 (layer F.Cu) (tedit 5AB1D624) (tstamp 5A9C74E3)
     (at 113.03 52.07 180)
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
     (tags "SPST Tactile Switch")
     (path /5A9C517D)
     (attr smd)
-    (fp_text reference SW1 (at 0 -3.75 180) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 -3.75 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_PUSH (at 0 3.75 180) (layer F.Fab)
@@ -3537,13 +3537,13 @@
     )
   )
 
-  (module footprints:SW_TACT_ALPS_SKQGABE010 (layer B.Cu) (tedit 596E092A) (tstamp 5A9C74EB)
+  (module footprints:SW_TACT_ALPS_SKQGABE010 (layer B.Cu) (tedit 5AB1D62A) (tstamp 5A9C74EB)
     (at 113.03 52.07)
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
     (tags "SPST Tactile Switch")
     (path /5A9D347A)
     (attr smd)
-    (fp_text reference SW2 (at 0 3.75) (layer B.SilkS)
+    (fp_text reference SW2 (at 0 3.75) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value SW_PUSH (at 0 -3.75) (layer B.Fab)
@@ -3652,7 +3652,7 @@
     (fp_text reference U1 (at 0.508 -14.732) (layer Eco1.User)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
-    (fp_text value ProMicro (at -1.27 2.54 90) (layer F.SilkS)
+    (fp_text value ProMicro (at 0.599962 1.17913 180) (layer F.SilkS)
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_line (start -6.35 -11.176) (end -8.89 -11.176) (layer B.SilkS) (width 0.381))
@@ -3861,15 +3861,15 @@
       (net 33 ws2812di))
   )
 
-  (module footprints:Mx_Alps_200-dualside (layer F.Cu) (tedit 5A9DD7AA) (tstamp 5A9DDFF0)
+  (module footprints:Mx_Alps_200-dualside (layer F.Cu) (tedit 5AB1D7FC) (tstamp 5A9DDFF0)
     (at 195.185698 117.878837 240)
     (descr MXALPS)
     (tags MXALPS)
     (path /5A9CCBAA)
-    (fp_text reference K25 (at -0.254 2.794 240) (layer F.SilkS) hide
+    (fp_text reference K25 (at 0.025838 4.662426 240) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value KEYSW (at 0 4.572 240) (layer F.SilkS)
+    (fp_text value KEYSW (at 0 4.572 240) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 7.62 7.62) (end 7.62 -7.62) (layer Dwgs.User) (width 0.3))
@@ -4032,12 +4032,12 @@
       (net 42 col5))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE23C)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D561) (tstamp 5A9DE23C)
     (at 93.98 110.49)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4051,12 +4051,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE256)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D571) (tstamp 5A9DE256)
     (at 93.98 72.39)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4070,12 +4070,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE272)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D55B) (tstamp 5A9DE272)
     (at 132.08 125.095)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4089,12 +4089,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE285)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D551) (tstamp 5A9DE285)
     (at 176.53 125.095)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4108,12 +4108,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE29E)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D547) (tstamp 5A9DE29E)
     (at 204.47 100.33)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4127,12 +4127,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE2B4)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D532) (tstamp 5A9DE2B4)
     (at 203.835 51.435)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4146,12 +4146,12 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A9DE2CD)
+  (module Mounting_Holes:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 5AB1D880) (tstamp 5A9DE2CD)
     (at 169.545 68.58)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -2.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.2mm_M2_DIN965 (at 0 2.9) (layer F.Fab)
@@ -4165,12 +4165,30 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text VCC (at 125.73 50.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text DI (at 122.555 50.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text GND (at 120.015 50.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (gr_text GND (at 120.015 50.8) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text VCC (at 125.73 50.8) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text DI (at 122.555 50.8) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_arc (start 211.455 106.68) (end 212.09 105.41) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 193.04 137.16) (end 194.945 137.795) (angle 116.5650512) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 78.105 127.635) (end 78.105 130.81) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 75.565 53.975) (end 74.93 53.975) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 205.105 49.53) (end 205.105 46.355) (angle 78.69006753) (layer Edge.Cuts) (width 0.15))
-  (gr_text "ErgoTravel V1.0\n" (at 146.05 124.46) (layer F.SilkS)
+  (gr_text "ErgoTravel V1.01\n" (at 146.685 124.46) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_text "Copyright 2018 - MIT License" (at 150.495 128.27) (layer F.SilkS)

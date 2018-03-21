@@ -30,8 +30,8 @@
 ### Option 2: PCB Mount Case Parts List
 
 - [ ] 2 PCBs (same PCBs will be used for Bottom Plates)
-- [ ] 12 M2x4mm screws
-- [ ] 6 M2x12mm standoffs
+- [ ] 14 M2x4mm screws
+- [ ] 7 M2x12mm standoffs
 
 
 ### Option 3: 3D Printed Case Parts List (3D Printed Case not available yet)
@@ -80,16 +80,20 @@ Note: Unlike some other keyboards, there are no jumpers to configure for the lef
 Install all diodes on top side.   
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
+
 ![diodes](/images/diodes.png)
+
 Bands must match the bands on the silkscreen.
 
 Take care that the diodes stay outside the switch footprints. This should be easy since there is lots of room in between switches.
 
-If diodes are on the other side, it should still work finel; however, there is a diode under the pro micro and the presence of the diode may prevent the pro micro to be installed properly.
+If diodes are on the other side, it should still "work" fine; however, there is a diode under the pro micro and the presence of the diode may prevent the pro micro to be installed properly.
 
 ### Step 4: Install the resistors
 If you are working on the Master Half, install the resistors near the top, on the top side.
+
 PLACE IMAGE HERE
+
 If you are working on the slave side, continue to the next step. The slave side does not have resistors.  
 If resistors are on installed the slave instead of the master, it should still work fine.
 
@@ -97,22 +101,28 @@ If resistors are on installed the slave instead of the master, it should still w
 ### Step 5: Install Reset Switch
 
 Install Reset switch on the bottom side of the boards. This is a surface mount switch.  Apply some solder to one of the 4 pads. Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Solder the other 3 connections.
+
 PLACE IMAGE HERE
+
 Some recommend to put some solder on the 4 pads.  I find it easier to align the switch if only 1 pad has solder pre-applied.  Using tweezers, you can hold the switch and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
 
 ### Step 6: Install TRRS Connector
 
 Install TRRS Connector on the bottom side of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection. Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Solder the other 3 connections.
+
 PLACE IMAGE HERE
+
 Some recommend to put some solder on the 4 pads.  I find it easier to align the connector if only 1 pad has solder pre-applied.  Using tweezers, you can hold it and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
 
 
 ### Step 7: Option 1 (recommended) Install Pro Micro Sockets 
 Install Pro Micro Sockets on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
+
 PLACE IMAGE HERE
 
 ### Step 7: Option 2 (not recommended) Install Pro Micro Headers
 Install Pro Micro Headers on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
+
 PLACE IMAGE HERE
 
 ### Step 8: Validate your soldering job and test the diodes...
@@ -129,8 +139,8 @@ Only the first half is done...  Rinse and repeat...
 Depending on whether you want 4x1U, 2x1U+1x2U or 1x2U+2x1U or 2x2U, you will require 0, 1 or 2 2U PCB Mount stabilizers. 
 
 
-### Step 2: Prepare Stabilizer
-Depending on where you obtaned your stabilizers, you may have to put them together before installing them.
+### Step 2: Prepare Stabilizers
+Depending on where you obtained your stabilizers, you may have to put them together before installing them.
 When assembled, they look like this:
 
 ![stabilizer](/images/stabilizer.png)
