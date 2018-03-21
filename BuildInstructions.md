@@ -45,19 +45,13 @@
 
 The number of switches and stabilizers depends on the desired configuration for the thumb switches.
 
-#### 4x1U Thumb switches
+| Configuration | Switches | 2U Cherry Stabilizer |
+| :---: | :---: | :---: |
+| 4x1U  |  54   |  0  |
+| 2x1U + 1x2U  |  53   |  1  |
+| 2x2U  |  52   |  2  |
 
-- [ ] 54 Switches
 
-#### 2x1U and 1x2U Thumb switches
-
-- [ ] 53 Switches
-- [ ] 1 2U Cherry Stabilizer
-
-#### 2x2U Thumb switches
-
-- [ ] 52 Switches
-- [ ] 2 2U Cherry Stabilizers
 
 
 ---
