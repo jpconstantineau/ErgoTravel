@@ -17,3 +17,5 @@ Similar design to Let's Split Case [on Thingiverse](https://www.thingiverse.com/
 Ideally generated with OpenScad (to make the design open source using free tools - just like the PCB)
 
 Production Files to be stored in STL folder once completed so that people don't need to "compile" the design into a file that can be produced.
+
+Note: dxf files are for reference. The orientation of the 1U thumb switches are not right

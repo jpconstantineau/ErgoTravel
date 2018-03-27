@@ -58,7 +58,7 @@ The number of switches and stabilizers depends on the desired configuration for 
 
 ### Step 1: Place PCBs face up with thumbs facing inward.
 
-To avoid building two left or two right halfes, place the PCBs side by side with the thumbs facing toward each other.
+To avoid building two left or two right halves, place the PCBs side by side with the thumbs facing toward each other.
 
 ![diodes](/images/PCB_side_by_side.PNG)
 
@@ -77,7 +77,7 @@ Note: Unlike some other keyboards, there are no jumpers to configure for the lef
 
 ### Step 3: Install the diodes
 
-Install all diodes on top side.   
+Install all diodes on **top side** of the board.   
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
 
@@ -100,7 +100,7 @@ If resistors are on installed the slave instead of the master, it should still w
 
 ### Step 5: Install Reset Switch
 
-Install Reset switch on the bottom side of the boards. This is a surface mount switch.  Apply some solder to one of the 4 pads. Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Solder the other 3 connections.
+Install Reset switch on the **bottom side** of the boards. This is a surface mount switch.  Apply some solder to one of the 4 pads. Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Solder the other 3 connections.
 
 ![diodes](/images/ResetSW.PNG)
 
@@ -108,7 +108,7 @@ Some recommend to put some solder on the 4 pads.  I find it easier to align the 
 
 ### Step 6: Install TRRS Connector
 
-Install TRRS Connector on the bottom side of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection. Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Solder the other 3 connections.
+Install TRRS Connector on the **bottom side** of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection. Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Solder the other 3 connections.
 
 ![diodes](/images/TRRS.PNG)
 
@@ -152,7 +152,7 @@ When installing the stabilizers, the twin legs as shown here:
 
 ![stabilizer](/images/stabilizerlegs.png)
 
-are installed towards the "outside" of the PCB.  Note that the hole diameters for installing the stabilizers are not the same between the two sides.  The stabilizer should only fir one way.
+are installed towards the "outside" of the PCB.  Note that the hole diameters for installing the stabilizers are not the same between the two sides.  The stabilizer should only fit one way.
 
 ![stabilizer](/images/Stab_holes.PNG)
 
