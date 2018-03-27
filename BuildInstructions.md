@@ -170,6 +170,13 @@ The legs should be fully snapped in place for the stabilizer to work properly.
 
 ---
 
+## Install Standoffs
+**This step only applies if you have an Internal Screw PCB Top Plate**
+
+_Ignore if you use the "External Screws PCB Case".  This was included with V1.0 Prototypes_
+
+---
+
 ## Install Switches
 **This is the last time you will have access to the diodes and the other components on the top side.  Double check your work before continuing!**
 
