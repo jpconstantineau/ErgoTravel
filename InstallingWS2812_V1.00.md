@@ -6,16 +6,16 @@ Please review your boards and find the following areas for both halves:
 ### Step 0: Review this document before starting to make changes to the board.
 
 ####Top View - Near Resistors
-![diodes](/images/I2C Resistors.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/I2C Resistors.V1.00 Top.PNG)
 
 ####Bottom View - Near Resistors
-![diodes](/images/I2C Resistors.V1.00 Bottom.PNG)
+![diodes](/tree/release_1.00/images/I2C Resistors.V1.00 Bottom.PNG)
 
 ####Top View - Near WS2812B header
-![diodes](/images/WS2812B.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/WS2812B.V1.00 Top.PNG)
 
 ####Bottom View - Near WS2812B header
-![diodes](/images/WS2812B.V1.00 Bottom.PNG)
+![diodes](/tree/release_1.00/images/WS2812B.V1.00 Bottom.PNG)
 
 
 ### Step 1: Remove R1 and R2 Resistors if they were installed 
@@ -27,12 +27,12 @@ This step is done on both boards.
 
 The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
 
-![diodes](/images/I2C Resistors.CUTHERE.V1.00 Top)
+![diodes](/tree/release_1.00/images/I2C Resistors.CUTHERE.V1.00 Top)
 
 ### Step 3: Master Half: Connect the WS2812B header to the RGB strip.
 
 ####Top View - Near WS2812B header
-![diodes](/images/WS2812B.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/WS2812B.V1.00 Top.PNG)
 
 The pad closest to the Pro Micro is VCC.
 
@@ -43,7 +43,7 @@ The middle pad is for the RGB data going to the DI pin of the strip.
 ### Step 4: Master Half: Connect the WS2812B header to the RGB strip.
 
 ####Top View - Near WS2812B header
-![diodes](/images/WS2812B.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/WS2812B.V1.00 Top.PNG)
 
 The pad closest to the Pro Micro is VCC.
 
@@ -53,7 +53,7 @@ The middle pad is for the RGB data going to the DI pin of the strip.
 
 
 ####Top View - Near Resistors
-![diodes](/images/I2C Resistors.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/I2C Resistors.V1.00 Top.PNG)
 
 The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
 Connect the DO of the strip (the other end) to this "extra data" pad (R2)
@@ -61,7 +61,7 @@ Connect the DO of the strip (the other end) to this "extra data" pad (R2)
 ### Step 5: Slave Half: Connect the WS2812B header to the RGB strip.
 
 ####Top View - Near WS2812B header
-![diodes](/images/WS2812B.V1.00 Top.PNG)
+![diodes](/tree/release_1.00/images/WS2812B.V1.00 Top.PNG)
 
 The pad closest to the Pro Micro is VCC.
 
@@ -70,7 +70,8 @@ The pad closest to the reset switch is GND.
 DO NOT CONNECT the middle pad to the strip.
 
 ####Top View - Near Resistors
-![diodes](/images/I2C Resistors.V1.00 Top.PNG)
+
+![diodes](/tree/release_1.00/images/I2C Resistors.V1.00 Top.PNG)
 
 Connect the DI of the strip (the same end as VCC and GND) to this "extra data" pad (R2)
 
