@@ -58,9 +58,10 @@ The middle pad is for the RGB data going to the DI pin of the strip.
 
 
 #### Top View - Near Resistors
-![diodes](/images/I2C%20Resistors.V1.00%20Top.PNG)
+![diodes](/images/I2C%20Resistors.EXTRADATA.V1.00%20Top.png)
 
 The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
+
 Connect the DO of the strip (the other end) to this "extra data" pad (R2)
 
 ### Step 5: Slave Half: Connect the WS2812B header to the RGB strip.
@@ -76,7 +77,7 @@ DO NOT CONNECT the middle pad to the strip.
 
 #### Top View - Near Resistors
 
-![diodes](/images/I2C%20Resistors.V1.00%20Top.PNG)
+![diodes](/images/I2C%20Resistors.EXTRADATA.V1.00%20Top.png)
 
 Connect the DI of the strip (the same end as VCC and GND) to this "extra data" pad (R2)
 
