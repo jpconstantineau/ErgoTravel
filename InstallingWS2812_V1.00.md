@@ -7,7 +7,7 @@ Please review your boards and find the following areas for both halves:
 
 #### Top View - Near Resistors
 
-![I2CRT](/tree/release_1.00/images/I2C%20Resistors.V1.00%20Top.PNG)
+![I2CRT](/images/I2C%20Resistors.V1.00%20Top.PNG)
 
 #### Bottom View - Near Resistors
 
