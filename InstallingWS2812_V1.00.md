@@ -1,6 +1,7 @@
 ## WS2812B Installation Instructions.
 **NOTE THIS APPLIES ONLY TO THE V1.0 BOARDS**
-**VERSIONS V1.01 and later: DO NOT USE THIS GUIDE** 
+
+**FOR VERSIONS V1.01 AND LATER: DO NOT USE THIS GUIDE** 
 
 Please review your boards and find the following areas for both halves:
 ### Step 0: Review this document before starting to make changes to the board.
