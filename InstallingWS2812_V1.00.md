@@ -31,7 +31,7 @@ This step is done on both boards.
 
 The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
 
-![diodes](/images/I2C Resistors.CUTHERE.V1.00%20Top)
+![diodes](/images/I2C%20Resistors.CUTHERE.V1.00%20Top)
 
 ### Step 3: Master Half: Connect the WS2812B header to the RGB strip.
 
