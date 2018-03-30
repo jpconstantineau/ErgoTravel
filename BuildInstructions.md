@@ -207,6 +207,14 @@ Validate that the diodes were installed correctly.  Once the switches are instal
 ### Step 9: Return to Step 3 and continue with the other half.
 Only the first half is done...  Rinse and repeat...
 
+Bottom view of the left PCB with all components installed:
+
+![all components left side](/images/all_components_left_side.JPG)
+
+Bottom view of the right PCB with all components installed:
+
+![all components right side](/images/all_components_right_side.JPG)
+
 ---
 
 ## Decide on Layout and Install Stabilizers
