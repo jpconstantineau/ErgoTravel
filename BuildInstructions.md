@@ -119,6 +119,28 @@ Bottom view:
 
 Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
 
+Once all of the diodes are in place they are ready to be soldered. After soldering, clip the legs on the diodes flush with the PCB.  Do not discard the legs from the diodes if you plan to install sockets for the pro micro.
+
+Diodes soldered on the left half.
+
+Top view:
+
+![left half top view](/images/diodes_soldered_left_top.JPG)
+
+Bottom view:
+
+![left half bottom view](/images/diodes_soldered_left_bottom.JPG)
+
+Diodes soldered on the right half.
+
+Top view:
+
+![right half top view](/images/diodes_soldered_right_top.JPG)
+
+Bottom view:
+
+![right half bottom view](/images/diodes_soldered_right_bottom.JPG)
+
 ### Step 4: Install the resistors
 If you are working on the Master Half, install the resistors near the top, on the top side.
 
