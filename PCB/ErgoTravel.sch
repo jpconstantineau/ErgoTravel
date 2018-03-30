@@ -1199,7 +1199,7 @@ U 1 1 5A9D7565
 P 9700 4600
 F 0 "R1" V 9780 4600 50  0000 C CNN
 F 1 "4.7k" V 9700 4600 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010" V 9630 4600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9630 4600 50  0001 C CNN
 F 3 "" H 9700 4600 50  0001 C CNN
 	1    9700 4600
 	1    0    0    -1  
@@ -1210,7 +1210,7 @@ U 1 1 5A9D77B4
 P 10300 4600
 F 0 "R2" V 10380 4600 50  0000 C CNN
 F 1 "4.7k" V 10300 4600 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010" V 10230 4600 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10230 4600 50  0001 C CNN
 F 3 "" H 10300 4600 50  0001 C CNN
 	1    10300 4600
 	1    0    0    -1  
