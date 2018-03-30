@@ -87,7 +87,7 @@ Use a straight edge to bend the diodes prior to installing them on the board.
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
 
-![diodes](/images/diodes.png)
+![diodes](/images/diodes.JPG)
 
 Bands must match the bands on the silkscreen and the square pads.
 
@@ -95,13 +95,13 @@ Diodes ready to be installed on the left half. After inserting both legs into th
 
 Top view:
 
-![left half top view](/images/diodes_ready_left_top.JPG)
+![diodes left half top view](/images/diodes_ready_left_top.JPG)
 
 The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.  
 
 Bottom view:
 
-![left half bottom view](/images/diodes_ready_left_bottom.JPG)
+![diodes left half bottom view](/images/diodes_ready_left_bottom.JPG)
 
 Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
 
@@ -109,13 +109,13 @@ Diodes ready to be installed on the right half.
 
 Top view:
 
-![right half top view](/images/diodes_ready_right_top.JPG)
+![diodes right half top view](/images/diodes_ready_right_top.JPG)
 
 The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.
 
 Bottom view:
 
-![right half bottom view](/images/diodes_ready_right_bottom.JPG)
+![diodes right half bottom view](/images/diodes_ready_right_bottom.JPG)
 
 Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
 
@@ -125,26 +125,26 @@ Diodes soldered on the left half.
 
 Top view:
 
-![left half top view](/images/diodes_soldered_left_top.JPG)
+![diodes left half top view](/images/diodes_soldered_left_top.JPG)
 
 Bottom view:
 
-![left half bottom view](/images/diodes_soldered_left_bottom.JPG)
+![diodes left half bottom view](/images/diodes_soldered_left_bottom.JPG)
 
 Diodes soldered on the right half.
 
 Top view:
 
-![right half top view](/images/diodes_soldered_right_top.JPG)
+![diodes right half top view](/images/diodes_soldered_right_top.JPG)
 
 Bottom view:
 
-![right half bottom view](/images/diodes_soldered_right_bottom.JPG)
+![diodes right half bottom view](/images/diodes_soldered_right_bottom.JPG)
 
 ### Step 4: Install the resistors
 If you are working on the Master Half, install the resistors near the top, on the top side.
 
-![diodes](/images/Resistors.PNG)
+![resistors](/images/Resistors.PNG)
 
 If you are working on the slave side, continue to the next step. The slave side does not have resistors.  
 If resistors are on installed the slave instead of the master, it should still work fine.
@@ -152,25 +152,49 @@ If resistors are on installed the slave instead of the master, it should still w
 
 ### Step 5: Install Reset Switch
 
-Install Reset switch on the **bottom side** of the boards. This is a surface mount switch.  Apply some solder to one of the 4 pads. Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Solder the other 3 connections.
+Install Reset switch on the **bottom side** of the boards. This is a surface mount switch.
 
-![diodes](/images/ResetSW.PNG)
+Apply some solder to one of the 4 pads. 
 
-Some recommend to put some solder on the 4 pads.  I find it easier to align the switch if only 1 pad has solder pre-applied.  Using tweezers, you can hold the switch and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
+![prep reset switch](/images/prep_reset_switch.JPG)
+
+Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Some recommend to put some solder on the 4 pads.  I find it easier to align the switch if only 1 pad has solder pre-applied. Using tweezers, you can hold the switch and gently touch the leg with the soldering iron and melt the solder. 
+
+![tack reset switch](/images/tack_reset_switch.JPG)
+
+Let the solder solidify and solder the other legs.
+
+![solder reset switch](/images/solder_reset_switch.JPG)
 
 ### Step 6: Install TRRS Connector
 
-Install TRRS Connector on the **bottom side** of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection. Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Solder the other 3 connections.
+Install TRRS Connector on the **bottom side** of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection.
 
-![diodes](/images/TRRS.PNG)
+![prep trrs connector](/images/prep_trrs.JPG)
 
-Some recommend to put some solder on the 4 pads.  I find it easier to align the connector if only 1 pad has solder pre-applied.  Using tweezers, you can hold it and gently touch the leg with the soldering iron and melt the solder. Let the solder solidify and solder the other legs.  
+Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Some recommend to put some solder on the 4 pads.  I find it easier to align the connector if only 1 pad has solder pre-applied. Using tweezers, you can hold it and gently touch the leg with the soldering iron and melt the solder.
+
+![tack trrs connector](images/tack_trrs.JPG)
+ 
+Solder the other 3 connections.
+
+![solder trrs](/images/solder_trrs.JPG)  
 
 
 ### Step 7: Option 1 (recommended) Install Pro Micro Sockets 
 Install Pro Micro Sockets on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
 
-PLACE IMAGE HERE
+Place the sockets on the boards and use some tape to hold them in place.  
+
+![tape sockets in place](/images/tape_sockets.JPG)
+
+Once in place, solder a single pin and then remove the tape.  While holding the PCB, press down on the socket with your finger and reflow the soldered pin with the iron.  Properly align the socket, remove the iron, and allow the socket to solidify.  Do not place your finger over the pin that is soldered.  It gets hot.
+
+![tack socket in place](/images/tack_socket.JPG)
+
+After you are satisfied with the alignment of the sockets, solder the pin on the opposite side of each socket to hold it in place. Solder the remaining pins.
+
+![solder sockets](/images/solder_sockets.JPG)
 
 ### Step 7: Option 2 (not recommended) Install Pro Micro Headers
 Install Pro Micro Headers on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
