@@ -87,7 +87,7 @@ Use a straight edge to bend the diodes prior to installing them on the board.
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
 
-![diodes](/images/diodes.png)
+![diodes](/images/diodes.JPG)
 
 Bands must match the bands on the silkscreen and the square pads.
 
