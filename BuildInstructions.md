@@ -77,7 +77,13 @@ Note: Unlike some other keyboards, there are no jumpers to configure for the lef
 
 ### Step 3: Install the diodes
 
-Install all diodes on **top side** of the board.   
+Install diodes on **bottom side** of the board. On each half of the board, the diode beneath the pro micro will need to be installed on the **top side** of the board.
+
+Use a straight edge to bend the diodes prior to installing them on the board.
+
+![bend diodes](/images/bend_diodes.JPG)
+
+![bend diodes](/images/bent_diodes.JPG)
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
 
@@ -85,9 +91,55 @@ Black line on the diode lines up with the square pad and white line on the PCB s
 
 Bands must match the bands on the silkscreen and the square pads.
 
-Take care that the diodes stay outside the switch footprints. This should be easy since there is lots of room in between switches.
+Diodes ready to be installed on the left half. After inserting both legs into the PCB, bend the legs outward to keep the diodes in place when soldering.
 
-If diodes are on the other side, it should still "work" fine; however, there is a diode under the pro micro and the presence of the diode may prevent the pro micro to be installed properly.
+Top view:
+
+![left half top view](/images/diodes_ready_left_top.JPG)
+
+The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.  
+
+Bottom view:
+
+![left half bottom view](/images/diodes_ready_left_bottom.JPG)
+
+Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
+
+Diodes ready to be installed on the right half.
+
+Top view:
+
+![right half top view](/images/diodes_ready_right_top.JPG)
+
+The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.
+
+Bottom view:
+
+![right half bottom view](/images/diodes_ready_right_bottom.JPG)
+
+Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
+
+Once all of the diodes are in place they are ready to be soldered. After soldering, clip the legs on the diodes flush with the PCB.  Do not discard the legs from the diodes if you plan to install sockets for the pro micro.
+
+Diodes soldered on the left half.
+
+Top view:
+
+![left half top view](/images/diodes_soldered_left_top.JPG)
+
+Bottom view:
+
+![left half bottom view](/images/diodes_soldered_left_bottom.JPG)
+
+Diodes soldered on the right half.
+
+Top view:
+
+![right half top view](/images/diodes_soldered_right_top.JPG)
+
+Bottom view:
+
+![right half bottom view](/images/diodes_soldered_right_bottom.JPG)
 
 ### Step 4: Install the resistors
 If you are working on the Master Half, install the resistors near the top, on the top side.
