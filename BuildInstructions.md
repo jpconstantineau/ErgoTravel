@@ -184,7 +184,17 @@ Solder the other 3 connections.
 ### Step 7: Option 1 (recommended) Install Pro Micro Sockets 
 Install Pro Micro Sockets on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
 
-PLACE IMAGE HERE
+Place the sockets on the boards and use some tape to hold them in place.  
+
+![tape sockets in place](/images/tape_sockets.JPG)
+
+Once in place, solder a single pin and then remove the tape.  While holding the PCB, press down on the socket with your finger and reflow the soldered pin with the iron.  Properly align the socket, remove the iron, and allow the socket to solidify.  Do not place your finger over the pin that is soldered.  It gets hot.
+
+![tack socket in place](/images/tack_socket.JPG)
+
+After you are satisfied with the alignment of the sockets, solder the pin on the opposite side of each socket to hold it in place. Solder the remaining pins.
+
+![solder sockets](/images/solder_sockets.JPG)
 
 ### Step 7: Option 2 (not recommended) Install Pro Micro Headers
 Install Pro Micro Headers on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
