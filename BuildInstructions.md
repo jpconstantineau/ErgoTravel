@@ -274,4 +274,25 @@ It's easier to replace a faulty Pro Micro if it's not already installed.
 ---
 ## Install Pro Micro
 
-still lots to do...
+### Steps for completing Pro Micro installation using low profile sockets
+
+Tape over the sockets using painter's tape so that the Pro Micro does not get soldered directly to the sockets. Press firmly on the tape in order to see the outline of the sockets.
+
+![tape over sockets](/images/tape_over_sockets.JPG)
+
+Insert a couple of pins in order to line everything up and then place the Pro Micros on top of the sockets. Make sure to face one up and the other down.  **Do not face the Pro Micros in the same direction** Insert pins into the remaining holes.
+
+![pin pro micro facing up](/images/insert_pins_components_up.JPG)
+
+![pin pro micro facing down](/images/insert_pins_components_down.JPG)
+
+Once the pins are in place, solder the Pro Micros. After soldering, use flush cutters to trim the excess wire. Use a small flathead screwdriver to pry the Pro Micros out of the sockets in order to remove the tape.
+
+![pro micros removed from pcbs](/images/pro_micros_ready.JPG)
+
+### (Optional) Use hot glue to reinforce USB micro connectors
+
+After gluing around the edges of the USB connectors, us a sharp hobby knife to cut off any excess glue.
+
+![hot glue](/images/hot_glue.JPG)
+
