@@ -280,7 +280,7 @@ Tape over the sockets using painter's tape so that the Pro Micro does not get so
 
 ![tape over sockets](/images/tape_over_sockets.JPG)
 
-Insert a couple of pins in order to line everything up and then place the Pro Micros on top of the sockets. Make sure to face one up and the other down.  **Do not face the Pro Micros in the same direction** Insert pins into the remaining holes.
+Use the diode legs that were saved from the previous steps.  Insert a couple of the pins in order to line everything up and then place the Pro Micros on top of the sockets. Make sure to face one up and the other down.  **Do not face the Pro Micros in the same direction** Insert pins into the remaining holes.
 
 ![pin pro micro facing up](/images/insert_pins_components_up.JPG)
 
