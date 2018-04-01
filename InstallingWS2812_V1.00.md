@@ -27,7 +27,7 @@ Please review your boards and find the following areas for both halves:
 This step is only relevant if the resistors were installed and only applies to one board.
 
 
-### Step 2: Cut the SCL trace going from Pro Micro to R2 Resistor.
+### Step 2: Cut the SCL trace going from Pro Micro to R1 Resistor.
 This step is done on both boards.  
 
 The pad of the R1 resistor that's farthest to the TRRS connector is the "Extra Data" pad.
