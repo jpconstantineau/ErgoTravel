@@ -30,7 +30,7 @@ This step is only relevant if the resistors were installed and only applies to o
 ### Step 2: Cut the SCL trace going from Pro Micro to R2 Resistor.
 This step is done on both boards.  
 
-The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
+The pad of the R1 resistor that's farthest to the TRRS connector is the "Extra Data" pad.
 
 ![diodes](/images/I2C%20Resistors.CUTHERE.V1.00%20Top.png)
 
@@ -60,7 +60,7 @@ The middle pad is for the RGB data going to the DI pin of the strip.
 #### Top View - Near Resistors
 ![diodes](/images/I2C%20Resistors.EXTRADATA.V1.00%20Top.png)
 
-The pad of the R2 resistor that's closest to the TRRS connector is the "Extra Data" pad.
+The pad of the R1 resistor that's farthest to the TRRS connector is the "Extra Data" pad.
 
 Connect the DO of the strip (the other end) to this "extra data" pad (R2)
 
