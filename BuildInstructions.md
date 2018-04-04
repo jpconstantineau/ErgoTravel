@@ -279,6 +279,12 @@ It's easier to replace a faulty Pro Micro if it's not already installed.
 ---
 ## Install Pro Micro
 
+Pro Micro Orientation - it is important to orient the controllers in the correct direction.  The Pro Micro on the left side of the keyboard will have the components facing toward the bottom plate. The Pro Micro on the right side of the keyboard will have the components facing the PCB.
+
+![pro micro orientation](/images/pro_micro_orientation.JPG)
+
+In the photo above, the left side of the keyboard is on top and the right side of the keyboard is on the bottom.
+
 ### Steps for completing Pro Micro installation using low profile sockets
 
 Tape over the sockets using painter's tape so that the Pro Micro does not get soldered directly to the sockets. Press firmly on the tape in order to see the outline of the sockets.
