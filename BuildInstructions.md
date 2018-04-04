@@ -262,9 +262,14 @@ _Ignore if you use the "External Screws PCB Case".  This was included with V1.0 
 ---
 
 ## Install Switches
-**This is the last time you will have access to the diodes and the other components on the top side.  Double check your work before continuing!**
 
-Place the Top plate above the PCB.
+Place the Top plate above the PCB and install switches at each corner to hold everything in place.  Solder the four switches in while pressing down on the PCB to push the PCB and switches together.
+
+![solder corner switches](/images/solder_corner_switches.JPG)
+
+Once the corner switches are installed, install the remaining switches and solder them in place.
+
+![solder all switches in place](/images/solder_switches.JPG)
 
 ---
 ## Test and Flash Pro Micros
@@ -273,6 +278,12 @@ It's easier to replace a faulty Pro Micro if it's not already installed.
 
 ---
 ## Install Pro Micro
+
+Pro Micro Orientation - it is important to orient the controllers in the correct direction.  The Pro Micro on the left side of the keyboard will have the components facing toward the bottom plate. The Pro Micro on the right side of the keyboard will have the components facing the PCB.
+
+![pro micro orientation](/images/pro_micro_orientation.JPG)
+
+In the photo above, the left side of the keyboard is on top and the right side of the keyboard is on the bottom.
 
 ### Steps for completing Pro Micro installation using low profile sockets
 
