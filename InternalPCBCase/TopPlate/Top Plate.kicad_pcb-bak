@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -101,7 +101,7 @@
     (uvia_drill 0.1)
   )
 
-  (gr_text JLCJLCJLC (at 103.23 72.39) (layer F.SilkS)
+  (gr_text JLCJLCJLCJLC (at 103.23 72.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.1)))
   )
   (gr_line (start 212.8 106.59) (end 212.76 106.92) (layer Edge.Cuts) (width 0.1))

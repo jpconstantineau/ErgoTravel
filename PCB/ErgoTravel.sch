@@ -1116,7 +1116,7 @@ ws2812di
 Text GLabel 2500 6500 0    60   Input ~ 0
 row3
 Text GLabel 2500 5900 0    60   Input ~ 0
-sda
+sdaPM
 Text GLabel 2500 6000 0    60   Input ~ 0
 scl
 Text GLabel 2500 6200 0    60   Input ~ 0
@@ -1254,7 +1254,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 4900 10300 4750
 NoConn ~ 2750 6100
-NoConn ~ 2750 5600
 Wire Wire Line
 	2500 6200 2750 6200
 Wire Wire Line
@@ -1273,17 +1272,6 @@ F 2 "Connectors:PJ320D_3.5mm_Jack" H 7950 4900 50  0001 C CNN
 F 3 "" H 7950 4900 50  0001 C CNN
 	1    7700 4800
 	-1   0    0    1   
-$EndComp
-$Comp
-L Conn_01x03 J1
-U 1 1 5A9D90E9
-P 5850 4750
-F 0 "J1" H 5850 4950 50  0000 C CNN
-F 1 "Conn_01x03" H 5850 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5850 4750 50  0001 C CNN
-F 3 "" H 5850 4750 50  0001 C CNN
-	1    5850 4750
-	1    0    0    -1  
 $EndComp
 $Comp
 L Audio-Jack-4 J3
@@ -1332,12 +1320,12 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 5A9DC92B
-P 5400 4850
-F 0 "#PWR013" H 5400 4600 50  0001 C CNN
-F 1 "GND" H 5400 4700 50  0000 C CNN
-F 2 "" H 5400 4850 50  0001 C CNN
-F 3 "" H 5400 4850 50  0001 C CNN
-	1    5400 4850
+P 5375 5050
+F 0 "#PWR013" H 5375 4800 50  0001 C CNN
+F 1 "GND" H 5375 4900 50  0000 C CNN
+F 2 "" H 5375 5050 50  0001 C CNN
+F 3 "" H 5375 5050 50  0001 C CNN
+	1    5375 5050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1427,4 +1415,138 @@ Wire Wire Line
 	3850 4600 3550 4600
 Wire Wire Line
 	3550 4400 3850 4400
+Text GLabel 5205 6320 0    60   Input ~ 0
+sdaPM
+$Comp
+L SOLDER_JUMPER SJ1
+U 1 1 5ACEEE8B
+P 5380 6370
+F 0 "SJ1" H 5380 6320 60  0000 C CNN
+F 1 "SOLDER_JUMPER" H 5430 6520 60  0001 C CNN
+F 2 "footprints:SolderJumperSingle" H 5430 6370 60  0001 C CNN
+F 3 "" H 5430 6370 60  0000 C CNN
+	1    5380 6370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5205 6320 5280 6320
+Text GLabel 5670 6325 2    60   Input ~ 0
+sda
+Wire Wire Line
+	5670 6325 5570 6325
+Wire Wire Line
+	5570 6325 5570 6320
+Wire Wire Line
+	5570 6320 5530 6320
+Text GLabel 2505 5600 0    60   Input ~ 0
+RX
+Wire Wire Line
+	2505 5600 2750 5600
+$Comp
+L Conn_01x05 J1
+U 1 1 5ACF0B02
+P 5850 4850
+F 0 "J1" H 5850 5150 50  0000 C CNN
+F 1 "Conn_01x05" H 5850 4550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 5850 4850 50  0001 C CNN
+F 3 "" H 5850 4850 50  0001 C CNN
+	1    5850 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5375 4950 0    60   Input ~ 0
+RESET
+Text GLabel 5400 4850 0    60   Input ~ 0
+RX
+Wire Wire Line
+	5375 4950 5650 4950
+Wire Wire Line
+	5375 5050 5650 5050
+$Comp
+L Conn_01x01 J8
+U 1 1 5ACF1FC6
+P 1055 4410
+F 0 "J8" H 1055 4510 50  0000 C CNN
+F 1 "Conn_01x01" H 1055 4310 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1055 4410 50  0001 C CNN
+F 3 "" H 1055 4410 50  0001 C CNN
+	1    1055 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J7
+U 1 1 5ACF217B
+P 1050 4725
+F 0 "J7" H 1050 4825 50  0000 C CNN
+F 1 "Conn_01x01" H 1050 4625 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1050 4725 50  0001 C CNN
+F 3 "" H 1050 4725 50  0001 C CNN
+	1    1050 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J6
+U 1 1 5ACF22A6
+P 1040 5035
+F 0 "J6" H 1040 5135 50  0000 C CNN
+F 1 "Conn_01x01" H 1040 4935 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1040 5035 50  0001 C CNN
+F 3 "" H 1040 5035 50  0001 C CNN
+	1    1040 5035
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J5
+U 1 1 5ACF2404
+P 1030 5340
+F 0 "J5" H 1030 5440 50  0000 C CNN
+F 1 "Conn_01x01" H 1030 5240 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1030 5340 50  0001 C CNN
+F 3 "" H 1030 5340 50  0001 C CNN
+	1    1030 5340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J9
+U 1 1 5ACF2596
+P 1570 4405
+F 0 "J9" H 1570 4505 50  0000 C CNN
+F 1 "Conn_01x01" H 1570 4305 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1570 4405 50  0001 C CNN
+F 3 "" H 1570 4405 50  0001 C CNN
+	1    1570 4405
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J10
+U 1 1 5ACF2748
+P 1580 4725
+F 0 "J10" H 1580 4825 50  0000 C CNN
+F 1 "Conn_01x01" H 1580 4625 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1580 4725 50  0001 C CNN
+F 3 "" H 1580 4725 50  0001 C CNN
+	1    1580 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J12
+U 1 1 5ACF2887
+P 1595 5030
+F 0 "J12" H 1595 5130 50  0000 C CNN
+F 1 "Conn_01x01" H 1595 4930 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1595 5030 50  0001 C CNN
+F 3 "" H 1595 5030 50  0001 C CNN
+	1    1595 5030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J11
+U 1 1 5ACF29E3
+P 1580 5360
+F 0 "J11" H 1580 5460 50  0000 C CNN
+F 1 "Conn_01x01" H 1580 5260 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 1580 5360 50  0001 C CNN
+F 3 "" H 1580 5360 50  0001 C CNN
+	1    1580 5360
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
