@@ -207,6 +207,14 @@ Validate that the diodes were installed correctly.  Once the switches are instal
 ### Step 9: Return to Step 3 and continue with the other half.
 Only the first half is done...  Rinse and repeat...
 
+Bottom view of the left PCB with all components installed:
+
+![all components left side](/images/all_components_left_side.JPG)
+
+Bottom view of the right PCB with all components installed:
+
+![all components right side](/images/all_components_right_side.JPG)
+
 ---
 
 ## Decide on Layout and Install Stabilizers
@@ -254,9 +262,14 @@ _Ignore if you use the "External Screws PCB Case".  This was included with V1.0 
 ---
 
 ## Install Switches
-**This is the last time you will have access to the diodes and the other components on the top side.  Double check your work before continuing!**
 
-Place the Top plate above the PCB.
+Place the Top plate above the PCB and install switches at each corner to hold everything in place.  Solder the four switches in while pressing down on the PCB to push the PCB and switches together.
+
+![solder corner switches](/images/solder_corner_switches.JPG)
+
+Once the corner switches are installed, install the remaining switches and solder them in place.
+
+![solder all switches in place](/images/solder_switches.JPG)
 
 ---
 ## Test and Flash Pro Micros
@@ -266,4 +279,31 @@ It's easier to replace a faulty Pro Micro if it's not already installed.
 ---
 ## Install Pro Micro
 
-still lots to do...
+Pro Micro Orientation - it is important to orient the controllers in the correct direction.  The Pro Micro on the left side of the keyboard will have the components facing toward the bottom plate. The Pro Micro on the right side of the keyboard will have the components facing the PCB.
+
+![pro micro orientation](/images/pro_micro_orientation.JPG)
+
+In the photo above, the left side of the keyboard is on top and the right side of the keyboard is on the bottom.
+
+### Steps for completing Pro Micro installation using low profile sockets
+
+Tape over the sockets using painter's tape so that the Pro Micro does not get soldered directly to the sockets. Press firmly on the tape in order to see the outline of the sockets.
+
+![tape over sockets](/images/tape_over_sockets.JPG)
+
+Use the diode legs that were saved from the previous steps.  Insert a couple of the pins in order to line everything up and then place the Pro Micros on top of the sockets. Make sure to face one up and the other down.  **Do not face the Pro Micros in the same direction** Insert pins into the remaining holes.
+
+![pin pro micro facing up](/images/insert_pins_components_up.JPG)
+
+![pin pro micro facing down](/images/insert_pins_components_down.JPG)
+
+Once the pins are in place, solder the Pro Micros. After soldering, use flush cutters to trim the excess wire. Use a small flathead screwdriver to pry the Pro Micros out of the sockets in order to remove the tape.
+
+![pro micros removed from pcbs](/images/pro_micros_ready.JPG)
+
+### (Optional) Use hot glue to reinforce USB micro connectors
+
+After gluing around the edges of the USB connectors, us a sharp hobby knife to cut off any excess glue.
+
+![hot glue](/images/hot_glue.JPG)
+
