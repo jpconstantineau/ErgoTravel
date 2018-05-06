@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 74.884999 46.149999 213.565001 139.745001)
+    (area 52.5 39 227.000001 157.500001)
     (thickness 1.6)
     (drawings 257)
     (tracks 0)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -253,10 +253,10 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "ErgoTravel V1.01" (at 141.224 66.294) (layer F.SilkS)
+  (gr_text "ErgoTravel V1.02" (at 141.224 66.294) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text JLCJLCJLCJLC (at 141.224 68.453) (layer F.SilkS)
+  (gr_text JLCJLCJLCJLC (at 136.779 68.326) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
   (gr_line (start 206.284 46.3926) (end 206.308 46.4015) (layer Edge.Cuts) (width 0.1))

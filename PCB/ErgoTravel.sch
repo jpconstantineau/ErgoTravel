@@ -1423,7 +1423,7 @@ U 1 1 5ACEEE8B
 P 5380 6370
 F 0 "SJ1" H 5380 6320 60  0000 C CNN
 F 1 "SOLDER_JUMPER" H 5430 6520 60  0001 C CNN
-F 2 "footprints:SolderJumperSingle" H 5430 6370 60  0001 C CNN
+F 2 "footprints:SolderJumperSingle-largepads" H 5430 6370 60  0001 C CNN
 F 3 "" H 5430 6370 60  0000 C CNN
 	1    5380 6370
 	1    0    0    -1  
@@ -1448,7 +1448,7 @@ U 1 1 5ACF0B02
 P 5850 4850
 F 0 "J1" H 5850 5150 50  0000 C CNN
 F 1 "Conn_01x05" H 5850 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 5850 4850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 5850 4850 50  0001 C CNN
 F 3 "" H 5850 4850 50  0001 C CNN
 	1    5850 4850
 	1    0    0    -1  
