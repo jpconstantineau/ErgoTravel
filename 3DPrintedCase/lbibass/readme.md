@@ -1,1 +1,1 @@
-placeholder
+here's my design for a printed case for the ergotravel. Note that the design could change as I make revisions to it. I will update the names as that happens. I will also document the changes in the PR. 
