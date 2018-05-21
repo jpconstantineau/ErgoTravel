@@ -163,9 +163,29 @@ Bottom view:
 
 #### Surface Mount Diodes
 
-The ErgoTravel PCBs are also compatible with surface mount diodes. When placing the diodes, be sure to orient the white lines on the diode with the bands on the PCB.
+The ErgoTravel PCBs are also compatible with surface mount diodes. When placing the diodes, be sure to orient the white lines on the diodes with the bands on the PCB.
 
 ![aligning surface mount diodes](images/align_smd.JPG)
+
+Add a small amount of solder to one of the SMD pads.
+
+![add solder to smd pad](images/solder_smd_pad.JPG)
+
+While holding the diode with tweezers, reflow the solder on the pad and place the diode into position making sure that the bands on the diode align with the bands on the PCB.
+
+![solder one side of the diode](images/reflow_smd_pad.JPG)
+
+With the diode in place, add solder to the other side of the diode.
+
+![solder the other side of the diode](images/solder_smd.JPG)
+
+Diodes soldered on left half:
+
+![cmd components soldered on left half](images/smd_left_half.JPG)
+
+Diodes soldered on right half:
+
+![cmd components soldered on right half](images/smd_right_half.JPG)
 
 ### Step 4: (Optional for I2C) Install the resistors
 **Note that I2C is currently not compatible with WS2812 RGB underglow**
