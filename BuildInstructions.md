@@ -78,7 +78,7 @@ The number of switches and stabilizers depends on the desired configuration for 
 
 To avoid building two left or two right halves, place the PCBs side by side with the thumbs facing toward each other.
 
-![diodes](/images/PCB_side_by_side.PNG)
+![diodes](images/PCB_side_by_side.PNG)
 
 ### Step 2: Decide which half will be the master.
 
@@ -88,24 +88,26 @@ Note: In the end, it doesn't matter much if you have the resistors on the slave.
 Divide the components in two halves and keep with each PCBs.
 Put the 2 resistors with the master half.
 
-![diodes](/images/Parts_electronics.PNG)
+![diodes](images/Parts_electronics.PNG)
 
 Note: Unlike some other keyboards, there are no jumpers to configure for the left or right halves.
 
 
 ### Step 3: Install the diodes
 
+#### Through hole diodes
+
 Install diodes on **bottom side** of the board. On each half of the board, the diode beneath the pro micro will need to be installed on the **top side** of the board.  For V1.01, there is no longer a diode under the pro micro.
 
 Use a straight edge to bend the diodes prior to installing them on the board.
 
-![bend diodes](/images/bend_diodes.JPG)
+![bend diodes](images/bend_diodes.JPG)
 
-![bend diodes](/images/bent_diodes.JPG)
+![bend diodes](images/bent_diodes.JPG)
 
 Black line on the diode lines up with the square pad and white line on the PCB silkscreen, bend the legs and push it through.
 
-![diodes](/images/diodes.JPG)
+![diodes](images/diodes.JPG)
 
 Bands must match the bands on the silkscreen and the square pads.
 
@@ -113,13 +115,13 @@ Diodes ready to be installed on the left half. After inserting both legs into th
 
 Top view:
 
-![diodes left half top view](/images/diodes_ready_left_top.JPG)
+![diodes left half top view](images/diodes_ready_left_top.JPG)
 
 The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.  
 
 Bottom view:
 
-![diodes left half bottom view](/images/diodes_ready_left_bottom.JPG)
+![diodes left half bottom view](images/diodes_ready_left_bottom.JPG)
 
 Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
 
@@ -127,13 +129,13 @@ Diodes ready to be installed on the right half.
 
 Top view:
 
-![diodes right half top view](/images/diodes_ready_right_top.JPG)
+![diodes right half top view](images/diodes_ready_right_top.JPG)
 
 The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.
 
 Bottom view:
 
-![diodes right half bottom view](/images/diodes_ready_right_bottom.JPG)
+![diodes right half bottom view](images/diodes_ready_right_bottom.JPG)
 
 Note the orientation of the diodes that are positioned horizontally.  It is important that the bands on the diodes match the bands on the silkscreen and the square pads.
 
@@ -143,28 +145,54 @@ Diodes soldered on the left half.
 
 Top view:
 
-![diodes left half top view](/images/diodes_soldered_left_top.JPG)
+![diodes left half top view](images/diodes_soldered_left_top.JPG)
 
 Bottom view:
 
-![diodes left half bottom view](/images/diodes_soldered_left_bottom.JPG)
+![diodes left half bottom view](images/diodes_soldered_left_bottom.JPG)
 
 Diodes soldered on the right half.
 
 Top view:
 
-![diodes right half top view](/images/diodes_soldered_right_top.JPG)
+![diodes right half top view](images/diodes_soldered_right_top.JPG)
 
 Bottom view:
 
-![diodes right half bottom view](/images/diodes_soldered_right_bottom.JPG)
+![diodes right half bottom view](images/diodes_soldered_right_bottom.JPG)
+
+#### Surface Mount Diodes
+
+The ErgoTravel PCBs are also compatible with surface mount diodes. When placing the diodes, be sure to orient the white lines on the diodes with the bands on the PCB.
+
+![aligning surface mount diodes](images/align_smd.JPG)
+
+Add a small amount of solder to one of the SMD pads.
+
+![add solder to smd pad](images/solder_smd_pad.JPG)
+
+While holding the diode with tweezers, reflow the solder on the pad and place the diode into position making sure that the bands on the diode align with the bands on the PCB.
+
+![solder one side of the diode](images/reflow_smd_pad.JPG)
+
+With the diode in place, add solder to the other side of the diode.
+
+![solder the other side of the diode](images/solder_smd.JPG)
+
+Diodes soldered on left half:
+
+![cmd components soldered on left half](images/smd_left_half.JPG)
+
+Diodes soldered on right half:
+
+![cmd components soldered on right half](images/smd_right_half.JPG)
 
 ### Step 4: (Optional for I2C) Install the resistors
 **Note that I2C is currently not compatible with WS2812 RGB underglow**
 If you are working on the Master Half, install the resistors near the top, on the top side.
 You will need to make a solder bridge at the Jumper location on both halves to enable I2C communication. This jumper is located next to the resistors.  Bridge on the "bottom" side so that you have access to it once fully assembled.
 
-![resistors](/images/Resistors.PNG)
+![resistors](images/Resistors.PNG)
 
 If you are working on the slave side, continue to the next step. The slave side does not have resistors.  
 If resistors are on installed the slave instead of the master, it should still work fine.
@@ -176,21 +204,21 @@ Install Reset switch on the **bottom side** of the boards. This is a surface mou
 
 Apply some solder to one of the 4 pads. 
 
-![prep reset switch](/images/prep_reset_switch.JPG)
+![prep reset switch](images/prep_reset_switch.JPG)
 
 Place the switch in position.  Melt the pre-applied solder to "tack" the switch in place. Some recommend to put some solder on the 4 pads.  I find it easier to align the switch if only 1 pad has solder pre-applied. Using tweezers, you can hold the switch and gently touch the leg with the soldering iron and melt the solder. 
 
-![tack reset switch](/images/tack_reset_switch.JPG)
+![tack reset switch](images/tack_reset_switch.JPG)
 
 Let the solder solidify and solder the other legs.
 
-![solder reset switch](/images/solder_reset_switch.JPG)
+![solder reset switch](images/solder_reset_switch.JPG)
 
 ### Step 6: Install TRRS Connector
 
 Install TRRS Connector on the **bottom side** of the boards. This is a surface mount connector.  Apply some solder to one of the 4 pads; preferably to the side that had a single connection.
 
-![prep trrs connector](/images/prep_trrs.JPG)
+![prep trrs connector](images/prep_trrs.JPG)
 
 Place the connector in position.  Melt the pre-applied solder to "tack" the connector in place. Some recommend to put some solder on the 4 pads.  I find it easier to align the connector if only 1 pad has solder pre-applied. Using tweezers, you can hold it and gently touch the leg with the soldering iron and melt the solder.
 
@@ -198,7 +226,7 @@ Place the connector in position.  Melt the pre-applied solder to "tack" the conn
  
 Solder the other 3 connections.
 
-![solder trrs](/images/solder_trrs.JPG)  
+![solder trrs](images/solder_trrs.JPG)  
 
 
 ### Step 7: Option 1 (recommended) Install Pro Micro Sockets 
@@ -206,15 +234,15 @@ Install Pro Micro Sockets on the bottom side of the boards. DO NOT SOLDER THE PR
 
 Place the sockets on the boards and use some tape to hold them in place.  
 
-![tape sockets in place](/images/tape_sockets.JPG)
+![tape sockets in place](images/tape_sockets.JPG)
 
 Once in place, solder a single pin and then remove the tape.  While holding the PCB, press down on the socket with your finger and reflow the soldered pin with the iron.  Properly align the socket, remove the iron, and allow the socket to solidify.  Do not place your finger over the pin that is soldered.  It gets hot.
 
-![tack socket in place](/images/tack_socket.JPG)
+![tack socket in place](images/tack_socket.JPG)
 
 After you are satisfied with the alignment of the sockets, solder the pin on the opposite side of each socket to hold it in place. Solder the remaining pins.
 
-![solder sockets](/images/solder_sockets.JPG)
+![solder sockets](images/solder_sockets.JPG)
 
 ### Step 7: Option 2 (not recommended) Install Pro Micro Headers
 Install Pro Micro Headers on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
@@ -229,11 +257,11 @@ Only the first half is done...  Rinse and repeat...
 
 Bottom view of the left PCB with all components installed:
 
-![all components left side](/images/all_components_left_side.JPG)
+![all components left side](images/all_components_left_side.JPG)
 
 Bottom view of the right PCB with all components installed:
 
-![all components right side](/images/all_components_right_side.JPG)
+![all components right side](images/all_components_right_side.JPG)
 
 ---
 
@@ -247,30 +275,30 @@ Depending on whether you want 4x1U, 2x1U+1x2U or 1x2U+2x1U or 2x2U, you will req
 Depending on where you obtained your stabilizers, you may have to put them together before installing them.
 When assembled, they look like this:
 
-![stabilizer](/images/stabilizer.png)
+![stabilizer](images/stabilizer.png)
 
 ### Step 3: Install Stabilizer in PCB
 If you want to lubricate your stabilizer or do anything special to them, now is the time...
 
 When installing the stabilizers, the twin legs as shown here:
 
-![stabilizer](/images/stabilizerlegs.png)
+![stabilizer](images/stabilizerlegs.png)
 
 are installed towards the "outside" of the PCB.  Note that the hole diameters for installing the stabilizers are not the same between the two sides.  The stabilizer should only fit one way.
 
-![stabilizer](/images/Stab_holes.PNG)
+![stabilizer](images/Stab_holes.PNG)
 
 To install the Stabilizer, first pass the small single hooks (on the wire side) through the larger holes (towards the center of the board).  
 
-![stabilizer](/images/Stab_install_1.PNG)
+![stabilizer](images/Stab_install_1.PNG)
 
 Then press down on the other side of the stabilizers (outside edge of the PCB) to engage the clips within the smaller holes.  You may have to squeeze gently on the twin legs for them to go through the hole.  Once through, the stabilizer will "snap" in place.
  
-![stabilizer](/images/Stab_install_2.PNG) 
+![stabilizer](images/Stab_install_2.PNG) 
 
 The legs should be fully snapped in place for the stabilizer to work properly.
 
-![stabilizer](/images/Stab_install_3.PNG) 
+![stabilizer](images/Stab_install_3.PNG) 
 
 ---
 
@@ -288,11 +316,11 @@ Access to the screws is not possible from above the top plate.  Install the scre
 
 Place the Top plate above the PCB and install switches at each corner to hold everything in place.  Solder the four switches in while pressing down on the PCB to push the PCB and switches together.
 
-![solder corner switches](/images/solder_corner_switches.JPG)
+![solder corner switches](images/solder_corner_switches.JPG)
 
 Once the corner switches are installed, install the remaining switches and solder them in place.
 
-![solder all switches in place](/images/solder_switches.JPG)
+![solder all switches in place](images/solder_switches.JPG)
 
 ---
 ## Test and Flash Pro Micros
@@ -304,7 +332,7 @@ It's easier to replace a faulty Pro Micro if it's not already installed.
 
 Pro Micro Orientation - it is important to orient the controllers in the correct direction.  The Pro Micro on the left side of the keyboard will have the components facing toward the bottom plate. The Pro Micro on the right side of the keyboard will have the components facing the PCB. NOTE: The PCB has an indication of the **RAW** pin.  Match this pin with the silscreen of the Pro Micro.
 
-![pro micro orientation](/images/pro_micro_orientation.JPG)
+![pro micro orientation](images/pro_micro_orientation.JPG)
 
 In the photo above, the left side of the keyboard is on top and the right side of the keyboard is on the bottom.
 
@@ -312,21 +340,21 @@ In the photo above, the left side of the keyboard is on top and the right side o
 
 Tape over the sockets using painter's tape so that the Pro Micro does not get soldered directly to the sockets. Press firmly on the tape in order to see the outline of the sockets.
 
-![tape over sockets](/images/tape_over_sockets.JPG)
+![tape over sockets](images/tape_over_sockets.JPG)
 
 Use the diode legs that were saved from the previous steps.  Insert a couple of the pins in order to line everything up and then place the Pro Micros on top of the sockets. Make sure to face one up and the other down.  **Do not face the Pro Micros in the same direction** Insert pins into the remaining holes.
 
-![pin pro micro facing up](/images/insert_pins_components_up.JPG)
+![pin pro micro facing up](images/insert_pins_components_up.JPG)
 
-![pin pro micro facing down](/images/insert_pins_components_down.JPG)
+![pin pro micro facing down](images/insert_pins_components_down.JPG)
 
 Once the pins are in place, solder the Pro Micros. After soldering, use flush cutters to trim the excess wire. Use a small flathead screwdriver to pry the Pro Micros out of the sockets in order to remove the tape.
 
-![pro micros removed from pcbs](/images/pro_micros_ready.JPG)
+![pro micros removed from pcbs](images/pro_micros_ready.JPG)
 
 ### (Optional) Use hot glue to reinforce USB micro connectors
 
 After gluing around the edges of the USB connectors, us a sharp hobby knife to cut off any excess glue.
 
-![hot glue](/images/hot_glue.JPG)
+![hot glue](images/hot_glue.JPG)
 
