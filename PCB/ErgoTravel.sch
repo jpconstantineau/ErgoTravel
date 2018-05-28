@@ -873,7 +873,7 @@ Connection ~ 7450 3000
 Wire Wire Line
 	8600 2400 8700 2400
 Wire Wire Line
-	8700 2400 8700 900 
+	8700 900  8700 3350
 Wire Wire Line
 	8700 900  8800 900 
 Wire Wire Line
@@ -909,7 +909,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3600 6600 3800
 Wire Wire Line
-	6600 3800 1100 3800
+	7900 3800 1100 3800
 Wire Wire Line
 	6600 1600 6600 1700
 Connection ~ 6600 1700
@@ -1549,4 +1549,34 @@ F 3 "" H 1580 5360 50  0001 C CNN
 	1    1580 5360
 	1    0    0    -1  
 $EndComp
+$Comp
+L Conn_01x02 J13
+U 1 1 5B0466BE
+P 8300 3150
+F 0 "J13" H 8300 3250 50  0000 C CNN
+F 1 "Conn_01x02" H 8300 2950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8300 3150 50  0001 C CNN
+F 3 "" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8700 3350 8400 3350
+Connection ~ 8700 2400
+$Comp
+L D D28
+U 1 1 5B04698B
+P 7900 3500
+F 0 "D28" H 7900 3600 50  0000 C CNN
+F 1 "D" H 7900 3400 50  0000 C CNN
+F 2 "footprints:D_SOD123_axial-dual" H 7900 3500 50  0001 C CNN
+F 3 "" H 7900 3500 50  0001 C CNN
+	1    7900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3650 7900 3800
+Connection ~ 6600 3800
+Wire Wire Line
+	7900 3350 8300 3350
 $EndSCHEMATC
