@@ -2,3 +2,5 @@
   * [Build Instructions](BuildInstructions.md)
   * [Choosing a Layout or Keycaps](ChoosingLayoutandKeycaps.md)
   * [Ordering Instructions](OrderingInstructions.md)
+  * [Installing RGB Underglow strips](InstallingRGBStrips.md)
+  * [Handwiring an extra key](InstallingExtraKey.md)
