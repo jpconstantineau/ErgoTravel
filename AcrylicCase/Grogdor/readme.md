@@ -7,6 +7,7 @@ ToDo:
 - experiment with segmented midlayer(s), saves significant material, easier/stronger to ship
 - get local material/cutting quotes
 - 2u stabilizer hole, stepped engrave over bar, how will other stabs fit? make sure 1u1u and 2u keycaps cover clear engrave surface finish
+- see how long it takes the Rabbit, what the finish/kerf/accuracy is like...
 
 ToTry:
 - colors? something other than clear/white/smoke scraps
