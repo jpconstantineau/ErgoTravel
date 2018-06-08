@@ -1,6 +1,7 @@
 Work in progress, currently prototyping for fit/tolerances, stackup, fasteners, manufacturing, etc.
 
 ToDo:
+- switch to MX+Alps cutouts, they're also openable!!
 - hipro, 1u1u/2ustab
 - separate keyswitch/1u1u/2ustab layers
 - figure out how layers/groups/viewports work for easier viewing, exporting, etc.
