@@ -1110,7 +1110,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 5500 2500 5500
 NoConn ~ 3750 5900
-NoConn ~ 3750 5500
 Text GLabel 2500 5500 0    60   Input ~ 0
 ws2812di
 Text GLabel 2500 6500 0    60   Input ~ 0
@@ -1579,4 +1578,36 @@ Wire Wire Line
 Connection ~ 6600 3800
 Wire Wire Line
 	7900 3350 8300 3350
+$Comp
+L Conn_01x02 J14
+U 1 1 5B22F995
+P 9750 3150
+F 0 "J14" H 9750 3250 50  0000 C CNN
+F 1 "Conn_01x02" H 9750 2950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9750 3150 50  0001 C CNN
+F 3 "" H 9750 3150 50  0001 C CNN
+	1    9750 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 5500 3950 5500
+Text Label 3950 5500 0    60   ~ 0
+RAW
+Wire Wire Line
+	9850 3350 9850 3550
+Text Label 9850 3550 0    60   ~ 0
+RAW
+$Comp
+L GND #PWR016
+U 1 1 5B230418
+P 9750 3450
+F 0 "#PWR016" H 9750 3200 50  0001 C CNN
+F 1 "GND" H 9750 3300 50  0000 C CNN
+F 2 "" H 9750 3450 50  0001 C CNN
+F 3 "" H 9750 3450 50  0001 C CNN
+	1    9750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3450 9750 3350
 $EndSCHEMATC
