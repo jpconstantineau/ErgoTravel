@@ -305,9 +305,24 @@ The legs should be fully snapped in place for the stabilizer to work properly.
 ## Install Standoffs for "Internal Screws PCB Case" 
 **This step only applies if you have an Internal Screw PCB Top Plate**
 
-_Ignore if you use the "External Screws PCB Case".  V1.0 Prototypes used these plates_
+_Ignore if you use the "External Screws PCB Case"._
 
-Access to the screws is not possible from above the top plate.  Install the screws and standoffs right now.
+How do you know if you have an External Screws Case or an Internal Screws Case?
+
+See the picture below:
+![cases](images/Cases_Compared.PNG) 
+
+
+Installing the screws is not possible from above the top plate.  
+The hole on the top plate is large enough to pass a screwdriver through but not enough for the screw head.
+
+![cases](images/InternalCase_Screwdriver.PNG) 
+
+Take each assembled PCB and install the screws and standoffs right now. See the two pictures below:
+
+![cases](images/InternalScrews_top.png)
+![cases](images/InternalScrews_bottom.png)
+
 
 
 ---

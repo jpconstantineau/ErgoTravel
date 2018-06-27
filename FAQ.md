@@ -13,4 +13,4 @@ By using different cables, one removes this possibility. Switching to USB commun
 One would have to change the micro controller and that would make the keyboard much more difficult to develop and support (no QMK perhaps?).
 
 ## Q: Does it support bluetooth?
-**A:** No. Each half uses a Pro Micro.  This makes the keyboard based on the ATMEGA32U4.
+**A:** Yes and No. When each half uses a Pro Micro, the keyboard is based on the ATMEGA32U4 and runs QMK. BlueTooth isn't supported when using the Pro Micro on the ErgoTravel.  When a BlueMicro is installed instead, the keyboard uses the nRF52832 and runs an Arduino firmware based on the Adafruit nRF52 Libraries.  The BlueMicro is a Bluetooth-Only solution.

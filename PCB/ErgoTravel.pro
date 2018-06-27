@@ -1,4 +1,4 @@
-update=3/4/2018 1:58:59 PM
+update=2018-06-12 8:43:04 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=ProMicro
 LibName34=keyboard_parts
 LibName35=canadian_parts
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
