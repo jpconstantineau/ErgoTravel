@@ -4,7 +4,8 @@ ToDo:
 - tenting is wobbly, boo
 - use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance)
 - 2ustabs engraves need to happen in one shot for proper material removal, not needlessly+time spread across workpieces; how to ensure that?
-- join all polylines + overkill
+- join all polylines + overkill ***
+- double single tenting hole, double bottom line, dots top corner, cutouts double lines, lots of cleanup!
 - figure out why Corel Draw puts a red outline around the black hatch engrave for 2ustabs
 - middle bluemicro + internal top plate
 - middle bluemicro + internal bottom plate
