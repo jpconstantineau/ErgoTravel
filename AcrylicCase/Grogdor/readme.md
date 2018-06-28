@@ -18,7 +18,6 @@ ToTry:
 - see how long it takes the Rabbit, what the finish/kerf/accuracy is like...
 
 ToDFM:
-- try lower power+speed and/or higher Hz for cleaner edge finish *
 - air assist OFF?? for cleaner edges per https://www.troteclaser.com/fileadmin/content/images/News/EN_US/2016-07-crown-trophy/Handbook-for-engravers.pdf
 - figure out optimal sheet/plate/bed size, important for cut layout, production runs, colors, etc. either on the Trotec or external
 - shared cutlines on sheet/plate layouts
@@ -46,3 +45,4 @@ ToDone:
 - ^^ check screwhole positions and size
 - hipro, 2ustab *
 - ^^ check keycap clearances
+- try lower power+speed and/or higher Hz for cleaner edge finish *
