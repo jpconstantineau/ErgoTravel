@@ -13,6 +13,12 @@ ToDo:
 - get local material/cutting quotes
 
 ToTry:
+- 6mm hipro with blind inserts
+- revisit 1u1u hipro altho there's probably not enough space between the keys to make another/non-universal SKU worthwhile
+- consider 9mm mid (no bonus internal plate on this one, segment it) with optional 3mm addon or other stackups
+- spread out the two tenting bolts (trrs to top? bottom to corner or at least closer?), make single tenting screw more central to balance point
+- reorganize layers into nested groups to tame the chaos
+- a few "yellow" surface finish cuts can be sped up "red" like inside of "cutouts" etc
 - colors? something other than clear/white/smoke scraps
 - experiment with "internal pcb" screws through the top plate, for strength
 - experiment with segmented midlayer(s), saves significant material, easier/stronger to ship
