@@ -15,7 +15,6 @@ ToDo:
 
 ToTry:
 - 6mm hipro with blind inserts
-- revisit 1u1u hipro altho there's probably not enough space between the keys to make another/non-universal SKU worthwhile
 - consider 9mm mid (no bonus internal plate on this one, segment it) with optional 3mm addon or other stackups
 - spread out the two tenting bolts (trrs to top? bottom to corner or at least closer?), make single tenting screw more central to balance point
 - reorganize layers into nested groups to tame the chaos
@@ -43,6 +42,7 @@ ToDon't:
 - (N/A due to 3mm layers stackup) with noticeable kerf on the 9mm single midlayer, do we want to kick the bottom layer out 0.?mm to eliminate slight edge where they meet?
 - (using 2ustabs as universal plate) hipro, 1u1u
 - re-import "construction" layer from previous drawing
+- (there's not) revisit 1u1u hipro altho there's probably not enough space between the keys to make another/non-universal SKU worthwhile
 
 ToDone:
 - switch to MX+Alps cutouts, they're also openable!! ***
