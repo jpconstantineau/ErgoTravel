@@ -4,6 +4,7 @@ ToDo:
 - tenting is wobbly, boo
 - use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance)
 - 2ustabs engraves need to happen in one shot for proper material removal, not needlessly+time spread across workpieces; how to ensure that?
+- fillet sharp outside bottom corner where hand sits
 - join all polylines + overkill ***
 - double single tenting hole, double bottom line, dots top corner, cutouts double lines, lots of cleanup!
 - figure out why Corel Draw puts a red outline around the black hatch engrave for 2ustabs
@@ -23,6 +24,13 @@ ToTry:
 - experiment with "internal pcb" screws through the top plate, for strength
 - experiment with segmented midlayer(s), saves significant material, easier/stronger to ship
 - see how long it takes the Rabbit, what the finish/kerf/accuracy is like...
+- ditch the single foot and replace with a strip of rubber/neoprene edge for flat-f/b tent
+- furniture swivel/levelling feet for tenting? do these come small enough? what's the grip surface like?
+- alu rod, ball one end on the lathe, trim/thread to taste, goes into nut pressed into case, polish/paint/shrink tube
+- cool crane outriggers, non-swivel, flip-out, fold out, r/a inserts, diagonal slide out
+- angled acrylic? edge clip ins for tenting?
+- m3 thumbscrews into the side of 9-12mm midlayer to hold legs, t-slots into segments or flip em (in a jig?) and engrave nuthole, cut bolthole
+- nice long radius ark at the bottom of the pcb+case where your hand goes, or maybe just in the plate/case and some neoprene...
 
 ToDFM:
 - air assist OFF?? for cleaner edges per https://www.troteclaser.com/fileadmin/content/images/News/EN_US/2016-07-crown-trophy/Handbook-for-engravers.pdf
