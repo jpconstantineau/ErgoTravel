@@ -26,6 +26,7 @@ ToTry:
 - ditch the single foot and replace with a strip of rubber/neoprene edge for flat-f/b tent
 - furniture swivel/levelling feet for tenting? do these come small enough? what's the grip surface like?
 - alu rod, ball one end on the lathe, trim/thread to taste, goes into nut pressed into case, polish/paint/shrink tube
+- check model shop for "aluminum pillow balls" and other small suspension bits for ^
 - cool crane outriggers, non-swivel, flip-out, fold out, r/a inserts, diagonal slide out
 - angled acrylic? edge clip ins for tenting?
 - m3 thumbscrews into the side of 9-12mm midlayer to hold legs, t-slots into segments or flip em (in a jig?) and engrave nuthole, cut bolthole
