@@ -253,7 +253,7 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text "ErgoTravel V1.03" (at 141.224 66.294) (layer F.SilkS)
+  (gr_text ErgoTravel (at 139.192 66.548) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text JLCJLCJLCJLC (at 136.779 68.326) (layer F.SilkS)
