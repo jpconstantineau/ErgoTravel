@@ -49,14 +49,16 @@
 - [ ] Right Case Bottom
 
 
-### Option 5: Acrylic Case Parts List (Acrylic Case not available yet)
+### Option 5: Acrylic Case Parts List (Acrylic Case Designed for use with the Pro Micro)
 
-- [ ] Left Case Top
-- [ ] 4 Left Case Mid Insert
-- [ ] Left Case Bottom
-- [ ] Right Case Top
-- [ ] 4 Right Case Mid Insert
-- [ ] Right Case Bottom
+- [ ] 2 Left Top
+- [ ] 1 Left Switch Plate: Note the engraving around the 2u thumb hole for the stabilizer wire
+- [ ] 4 Left Mid Insert
+- [ ] 1 Left Bottom
+- [ ] 2 Right Top
+- [ ] 1 Right Switch Plate: Note the engraving around the 2u thumb hole for the stabilizer wire
+- [ ] 4 Right Mid Insert
+- [ ] Right Bottom
 
 
 ### Switches and stabilizers
