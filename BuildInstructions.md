@@ -24,21 +24,21 @@
 - [ ] 2 Top PCB Plates
 - [ ] 2 Bottom PCB Plates
 - [ ] 36 M2x4mm screws (18 per side)
-- [ ] 18 M2x12mm standoffs (9 per side)
+- [ ] 18 M2x12mm standoffs (9 per side) (or M2x14mm for tall sockets)
 
 ### Option 2: PCB Sandwich Case Parts List - Internal Screw Design
 
 - [ ] 2 Top PCB Plates
 - [ ] 2 Bottom PCB Plates
 - [ ] 32 M2x4mm screws (16 per side)
-- [ ] 16 M2x8mm standoffs (8 per side) (6mm standoffs may be used if ultra low profile sockets are used)
+- [ ] 16 M2x8mm standoffs (8 per side) (or M2x10mm for tall sockets)
 
 
 ### Option 3: PCB Mount Case Parts List
 
 - [ ] 4 PCBs (same PCBs will be used for Bottom Plates - 2 per side)
 - [ ] 32 M2x4mm screws (16 per side)
-- [ ] 16 M2x8mm standoffs (8 per side) (6mm standoffs may be used if ultra low profile sockets are used)
+- [ ] 16 M2x8mm standoffs (8 per side) (or M2x10mm for tall sockets)
 
 
 ### Option 4: 3D Printed Case Parts List (3D Printed Case not available yet)
@@ -52,10 +52,10 @@
 ### Option 5: Acrylic Case Parts List (Acrylic Case not available yet)
 
 - [ ] Left Case Top
-- [ ] Left Case Mid Insert
+- [ ] 4 Left Case Mid Insert
 - [ ] Left Case Bottom
 - [ ] Right Case Top
-- [ ] Right Case Mid Insert
+- [ ] 4 Right Case Mid Insert
 - [ ] Right Case Bottom
 
 
@@ -117,7 +117,7 @@ Top view:
 
 ![diodes left half top view](images/diodes_ready_left_top.JPG)
 
-The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.  
+(Only applies to the V1.01 version) The diode beneath the pro micro will need to be placed on top of the PCB so that it does not come in contact with the pro micro.  
 
 Bottom view:
 
@@ -228,6 +228,10 @@ Solder the other 3 connections.
 
 ![solder trrs](images/solder_trrs.JPG)  
 
+To increase the strength of the TRRS connectors soldered on top of the board, add a drop of cyanoacrylate glue to each hole from the other side of the PCB.  By using a liquid glue (not a gel),the glue will seep through the hole and insert itself between the PCB and connector.  Let the glue set as per the manufacturer instructions.
+
+![glue trrs](images/glue_trrs.JPG)  
+
 
 ### Step 7: Option 1 (recommended) Install Pro Micro Sockets 
 Install Pro Micro Sockets on the bottom side of the boards. DO NOT SOLDER THE PRO MICRO.
@@ -250,7 +254,7 @@ Install Pro Micro Headers on the bottom side of the boards. DO NOT SOLDER THE PR
 PLACE IMAGE HERE
 
 ### Step 8: Validate your soldering job and test the diodes...
-Validate that the diodes were installed correctly.  Once the switches are installed through the top plate, it will be close to impossible to replace the diodes without unsoldering everything.
+Validate that the diodes were installed correctly.  Once the switches are installed through the top plate, it will be close to impossible to replace the diodes without unsoldering everything. If the diodes are installed on the bottom of the PCB, it is possible to unsolder the diodes, however, resoldering a new diode will require trimming the leg before soldering. 
 
 ### Step 9: Return to Step 3 and continue with the other half.
 Only the first half is done...  Rinse and repeat...
@@ -318,11 +322,17 @@ The hole on the top plate is large enough to pass a screwdriver through but not 
 
 ![cases](images/InternalCase_Screwdriver.PNG) 
 
+![cases](images/InternalCase_Screwview.jpg) 
+
 Take each assembled PCB and install the screws and standoffs right now. See the two pictures below:
 
 ![cases](images/InternalScrews_top.png)
 ![cases](images/InternalScrews_bottom.png)
 
+Once assembled, the screws will be hidden from the top.  Seen from the side, the standoffs only go between the PCB and Bottom plate.
+The Top Plate is only held by the friction with the switches.  This is similar to the GH60 and the Contra.
+
+![cases](images/InternalScrews_side.jpg)
 
 
 ---
