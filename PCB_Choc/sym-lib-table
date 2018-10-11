@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ErgoTravel-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoTravel-rescue.lib)(options "")(descr ""))
+)
