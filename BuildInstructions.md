@@ -390,3 +390,6 @@ After gluing around the edges of the USB connectors, us a sharp hobby knife to c
 
 ![hot glue](images/hot_glue.JPG)
 
+## Having Problems once it is all built?
+
+Go to the [troubleshooting guide](/Troubleshooting_steps.md)
