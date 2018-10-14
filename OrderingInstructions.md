@@ -1,6 +1,7 @@
 ErgoTravel
 ====
-NOTE: THIS IS STILL A WORK IN PROGRESS
+
+Unless you get your ergotravel from a group buy, you will need to order all the parts for your Ergotravel yourself from various suppliers.  All the design files are available on this GitHub repo.  for the Gerber Files, see this [filder.](https://github.com/jpconstantineau/ErgoTravel/tree/master/GerberFiles/V1.03_Final)
 
 ## Parts to order
 
