@@ -21,7 +21,7 @@ Most often this is due to a diode installed in the reverse direction.  Unsolder 
 
 ## A whole Column or a whole Row is not working
 
-If a whole column or row) is not working, then it's the conection between the column and the microcontroller on the pro micro that's problematic.
+If a whole column (or row) is not working, then it's the conection between the column/row and the microcontroller on the pro micro that's problematic.
 With a continuity meter, check the following:
 
 * (for columns) continuity between the non-diode side of the switches for that column and the pro micro pin - on the PCB socket.
