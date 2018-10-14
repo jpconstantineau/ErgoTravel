@@ -43,6 +43,6 @@ Note that the lcsc socket above (part C9811) is a tall socket.  If you want an u
 | 16 |  M2*4 screws (if using PCB Mount or internal screws case)          |  Aliexpress |
 | 8  |  M2*8 standoffs (if using PCB Mount or internal screws case and headers or ultra low profile sockets)       |  Aliexpress |
 | 8  |  M2*10 standoffs (if using PCB Mount or internal screws case and tall sockets)       |  Aliexpress |
-| 18 |  M2*4 screws (if using Plate Mount)        |  Aliexpress |
+| 18 |  M2*4 screws (if using Plate Mount external screws case)        |  Aliexpress |
 | 9  |  M2*12 standoffs  (if using Plate Mount external screws case and headers or ultra low profile sockets)   |  Aliexpress |
 | 9  |  M2*14 standoffs  (if using Plate Mount external screws case and tall sockets)   |  Aliexpress |
