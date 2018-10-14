@@ -1,4 +1,4 @@
-* [Getting Started](README.md)
+* [Getting Started](readme.md)
   * [Build Instructions](BuildInstructions.md)
   * [Troubleshooting Guide](Troubleshooting_steps.md)
   * [Choosing a Layout or Keycaps](ChoosingLayoutandKeycaps.md)
