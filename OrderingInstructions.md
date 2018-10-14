@@ -30,7 +30,7 @@ I recommend ordering your PCBs from JLCPCB or EasyEDA.  You will be able to orde
 | 2  |  PJ-320D-A TRRS Connector                 |  [C95562](https://lcsc.com/product-detail/Audio-Connectors_PJ-320D-A_C95562.html) |
 | 2  |  Switch 5.2*5.2*1.5 250gf Copper head     |  [C92584](https://lcsc.com/product-detail/Tactile-Switches_Switch-5-2-5-2-1-5-250gf-Copper-head_C92584.html) |
 | 2  |  2.54mm 1*40P round Female header         |  [C9811](https://lcsc.com/product-detail/Female-Header_2-54mm-1-40P-round-Female-header_C9811.html) |
-| 54 |  1N4148 Switching Diode                   |  [C14516](https://lcsc.com/product-detail/Switching-Diode_1N4148_C14516.html) |
+| 56 |  1N4148 Switching Diode                   |  [C14516](https://lcsc.com/product-detail/Switching-Diode_1N4148_C14516.html) |
 
 
 Note that the lcsc socket above (part C9811) is a tall socket.  If you want an ultra low profile socket which is the same height as headers, look for the MillMax ultra low sockets [digikey](https://www.digikey.ca/product-detail/en/mill-max-manufacturing-corp/315-93-164-41-003000/ED4864-64-ND/279656).  These are expensive but worth it.
