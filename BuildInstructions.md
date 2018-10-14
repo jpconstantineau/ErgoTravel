@@ -49,14 +49,19 @@
 - [ ] Right Case Bottom
 
 
-### Option 5: Acrylic Case Parts List (Acrylic Case not available yet)
+### Option 5: Acrylic Case Parts List (Acrylic Case Designed for use with the Pro Micro)
 
-- [ ] Left Case Top
-- [ ] 4 Left Case Mid Insert
-- [ ] Left Case Bottom
-- [ ] Right Case Top
-- [ ] 4 Right Case Mid Insert
-- [ ] Right Case Bottom
+- [ ] 2 Left Top
+- [ ] 1 Left Switch Plate: Note the engraving around the 2u thumb hole for the stabilizer wire
+- [ ] 4 Left Mid Insert
+- [ ] 1 Left Bottom
+- [ ] 2 Right Top
+- [ ] 1 Right Switch Plate: Note the engraving around the 2u thumb hole for the stabilizer wire
+- [ ] 4 Right Mid Insert
+- [ ] Right Bottom
+- [ ] 20 M2x12 standoffs (10 per side)
+- [ ] 20 M2x6 screws (10 per side - for the bottom)
+- [ ] 20 M2x12 screws (10 per side - for the top)
 
 
 ### Switches and stabilizers
@@ -339,6 +344,8 @@ The Top Plate is only held by the friction with the switches.  This is similar t
 
 ## Install Switches
 
+Select the top plate for the side you are building.  Inspect carefully both sides of the plate for imperfections (put them inside to hid them) or, in the case of the acrylic plates, for which side is engraved for the stabilizer wire.  
+
 Place the Top plate above the PCB and install switches at each corner to hold everything in place.  Solder the four switches in while pressing down on the PCB to push the PCB and switches together.
 
 ![solder corner switches](images/solder_corner_switches.JPG)
@@ -361,7 +368,7 @@ Pro Micro Orientation - it is important to orient the controllers in the correct
 
 In the photo above, the left side of the keyboard is on top and the right side of the keyboard is on the bottom.
 
-### Steps for completing Pro Micro installation using low profile sockets
+### Steps for completing Pro Micro installation using sockets
 
 Tape over the sockets using painter's tape so that the Pro Micro does not get soldered directly to the sockets. Press firmly on the tape in order to see the outline of the sockets.
 
