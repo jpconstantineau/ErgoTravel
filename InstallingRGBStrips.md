@@ -14,7 +14,7 @@
 When you're done with the master half, it should look like this. With less kapton tape.
 
 ![This is what the underside of the MASTER half should look like.](images/RGB_board_connections_master.jpg)
-
+*This is what the underside of the MASTER half should look like*
 
 ### Slave Half
 
@@ -24,7 +24,8 @@ When you're done with the master half, it should look like this. With less kapto
 
 When you're done with the slave half, it should look like this. 
 
-![![This is what the underside of the SLAVE half should look like.]](images/RGB_board_connections_slave.jpg)
+![This is what the underside of the SLAVE half should look like.](images/RGB_board_connections_slave.jpg)
+*This is what the underside of the SLAVE half should look like*
 
 
 This should complete the hardware assembly.
