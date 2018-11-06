@@ -5,6 +5,7 @@ Work in progress, currently prototyping for fit/tolerances, stackup, fasteners, 
 ToDo:
 - revisit hipro design, small pieces are weak and can break off, are they really needed?
 - tenting is wobbly, boo
+- put engrave near the top, so job doesn't have to wait/scroll all the way down to it... saves like 20sec per plate
 - use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance) - no longer relevant because we're not making internal  plates of the leftover material, however rounded corners would likely put less strain on the material
 - 2ustabs engraves need to happen in one shot for proper material removal, not needlessly+time spread across workpieces; how to ensure that? - because of heat buildup for removing material, if the laser traverses the whole sheet it doesn't happen properly. Engraves are set to Y axis, so just spread the black fills across the plate as needed.
 - fillet sharp outside bottom corner where hand sits - doesn't look/feel right
