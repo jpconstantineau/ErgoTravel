@@ -1,5 +1,7 @@
 Work in progress, currently prototyping for fit/tolerances, stackup, fasteners, manufacturing, etc.
 
+"TENTED" layers are currently out of sync with bluemicro holes
+
 ToDo:
 - tenting is wobbly, boo
 - use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance)
