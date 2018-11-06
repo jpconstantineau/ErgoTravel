@@ -3,17 +3,14 @@ Work in progress, currently prototyping for fit/tolerances, stackup, fasteners, 
 "TENTED" layers are currently out of sync with bluemicro holes
 
 ToDo:
+- revisit hipro design, small pieces are weak and can break off, are they really needed?
 - tenting is wobbly, boo
-- use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance)
-- 2ustabs engraves need to happen in one shot for proper material removal, not needlessly+time spread across workpieces; how to ensure that?
-- fillet sharp outside bottom corner where hand sits
-- join all polylines + overkill ***
-- double single tenting hole, double bottom line, dots top corner, cutouts double lines, lots of cleanup!
-- figure out why Corel Draw puts a red outline around the black hatch engrave for 2ustabs
-- middle bluemicro + internal top plate
-- middle bluemicro + internal bottom plate
-- figure out how layers/groups/viewports work for easier viewing, exporting, etc.
-- get local material/cutting quotes
+- use "plated" lines inside "cutout" for everything, not sharp duplicate corners (but check corner @ TRRS jack for PCB clearance) - no longer relevant because we're not making internal  plates of the leftover material, however rounded corners would likely put less strain on the material
+- 2ustabs engraves need to happen in one shot for proper material removal, not needlessly+time spread across workpieces; how to ensure that? - because of heat buildup for removing material, if the laser traverses the whole sheet it doesn't happen properly. Engraves are set to Y axis, so just spread the black fills across the plate as needed.
+- fillet sharp outside bottom corner where hand sits - doesn't look/feel right
+- *** join all polylines + overkill ***
+- figure out why Corel Draw puts a red outline around the black hatch engrave for 2ustabs - just doesn't handle AutoCAD hatches, have to cleanup lines and fill color manually for .cdr file
+- figure out how layers/groups/viewports work for easier viewing, exporting, etc. - really need a CAD pro for some tricks to do this easier...
 
 ToTry:
 - 6mm hipro with blind inserts
@@ -35,11 +32,9 @@ ToTry:
 - nice long radius ark at the bottom of the pcb+case where your hand goes, or maybe just in the plate/case and some neoprene...
 
 ToDFM:
-- air assist OFF?? for cleaner edges per https://www.troteclaser.com/fileadmin/content/images/News/EN_US/2016-07-crown-trophy/Handbook-for-engravers.pdf
-- figure out optimal sheet/plate/bed size, important for cut layout, production runs, colors, etc. either on the Trotec or external
-- shared cutlines on sheet/plate layouts
-
-ToMeh:
+- air assist OFF?? for cleaner edges per https://www.troteclaser.com/fileadmin/content/images/News/EN_US/2016-07-crown-trophy/Handbook-for-engravers.pdf - smoke/gas made it worse, slowing down the cut and upping the Hz helped the edge finish a lot
+- figure out optimal sheet/plate/bed size, important for cut layout, production runs, colors, etc. either on the Trotec or external - consider logistics of organizing pieces, turns out tossing scraps around was easier file/cut/pack-wise than keeping track of odd pieces, making extra files, etc
+- shared cutlines on sheet/plate layouts - probably only worth it if paying per laser minute, even then may not be that great with these shapes
 
 ToDon't:
 - (N/A due to 3mm layers stackup) with noticeable kerf on the 9mm single midlayer, do we want to kick the bottom layer out 0.?mm to eliminate slight edge where they meet?
