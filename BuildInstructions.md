@@ -274,6 +274,10 @@ Bottom view of the right PCB with all components installed:
 
 ---
 
+## Prepare underglow
+
+If you plan on adding RGB underglow, start soldering the connectors now. See [Installing RGB Strips](InstallingRGBStrips.md) for details.
+
 ## Decide on Layout and Install Stabilizers
 
 ### Step 1: Decide on your layout.
