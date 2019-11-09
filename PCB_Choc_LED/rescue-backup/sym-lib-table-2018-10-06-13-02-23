@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ErgoTravel-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoTravel-rescue.lib)(options "")(descr ""))
+  (lib (name ProMicro)(type Legacy)(uri C:/GIT/ErgoTravel/Library/schematics/ProMicro.lib)(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri C:/GIT/ErgoTravel/Library/schematics/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name canadian_parts)(type Legacy)(uri C:/GIT/ErgoTravel/Library/schematics/canadian_parts.lib)(options "")(descr ""))
+)

@@ -1,0 +1,378 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device:LED
+#
+DEF Device:LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device:R
+#
+DEF Device:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:Audio-Jack-4
+#
+DEF ErgoTravel-rescue:Audio-Jack-4 J 0 40 Y Y 1 F N
+F0 "J" -50 80 50 H V C CNN
+F1 "ErgoTravel-rescue:Audio-Jack-4" 120 -370 50 H V C CNN
+F2 "" 250 100 50 H I C CNN
+F3 "" 250 100 50 H I C CNN
+DRAW
+T 0 25 -250 30 0 0 0 1 Normal 0 C C
+T 0 -50 -250 30 0 0 0 2 Normal 0 C C
+T 0 -125 -250 30 0 0 0 3 Normal 0 C C
+S -180 -320 100 30 0 0 10 f
+S -175 -300 -205 -200 0 1 0 F
+P 4 0 1 10 0 -200 25 -225 50 -200 100 -200 N
+P 5 0 1 10 -75 -200 -50 -225 -25 -200 -25 -100 100 -100 N
+P 5 0 1 10 100 0 -100 0 -100 -200 -125 -225 -150 -200 N
+X ~ 1 200 -200 100 L 50 50 1 1 P
+X ~ 2 200 -100 100 L 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+X ~ 4 -200 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:Conn_01x01
+#
+DEF ErgoTravel-rescue:Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "ErgoTravel-rescue:Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:Conn_01x02
+#
+DEF ErgoTravel-rescue:Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "ErgoTravel-rescue:Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:Conn_01x05
+#
+DEF ErgoTravel-rescue:Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "ErgoTravel-rescue:Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:Conn_01x06
+#
+DEF ErgoTravel-rescue:Conn_01x06 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "ErgoTravel-rescue:Conn_01x06" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:D
+#
+DEF ErgoTravel-rescue:D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "ErgoTravel-rescue:D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:GND
+#
+DEF ErgoTravel-rescue:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "ErgoTravel-rescue:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:KEYSW
+#
+DEF ~ErgoTravel-rescue:KEYSW K? 0 40 Y Y 1 F N
+F0 "K?" -50 0 60 H V C CNN
+F1 "ErgoTravel-rescue:KEYSW" 0 -100 60 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -200 0 50 0 1 0 N
+C 200 0 50 0 1 0 N
+P 2 0 1 10 -200 50 150 150 N
+X ~ 1 300 0 50 L 60 60 1 1 P
+X ~ 2 -300 0 50 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:ProMicro
+#
+DEF ErgoTravel-rescue:ProMicro U 0 40 Y Y 1 F N
+F0 "U" 0 -850 60 H V C CNN
+F1 "ErgoTravel-rescue:ProMicro" 0 450 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 300 400 -300 -800 0 1 0 N
+X RAW 1 500 350 200 L 50 50 1 1 I
+X PB3 10 500 -550 200 L 50 50 1 1 I
+X PB2 11 500 -650 200 L 50 50 1 1 I
+X PB6 12 500 -750 200 L 50 50 1 1 I
+X PD3 13 -500 350 200 R 50 50 1 1 I
+X PD2 14 -500 250 200 R 50 50 1 1 I
+X GND 15 -500 150 200 R 50 50 1 1 I
+X GND 16 -500 50 200 R 50 50 1 1 I
+X PD1 17 -500 -50 200 R 50 50 1 1 I
+X PD0 18 -500 -150 200 R 50 50 1 1 I
+X PD4 19 -500 -250 200 R 50 50 1 1 I
+X GND 2 500 250 200 L 50 50 1 1 I
+X PC6 20 -500 -350 200 R 50 50 1 1 I
+X PD7 21 -500 -450 200 R 50 50 1 1 I
+X PE6 22 -500 -550 200 R 50 50 1 1 I
+X PB4 23 -500 -650 200 R 50 50 1 1 I
+X PB5 24 -500 -750 200 R 50 50 1 1 I
+X RST 3 500 150 200 L 50 50 1 1 I
+X VCC 4 500 50 200 L 50 50 1 1 I
+X PF4 5 500 -50 200 L 50 50 1 1 I
+X PF5 6 500 -150 200 L 50 50 1 1 I
+X PF6 7 500 -250 200 L 50 50 1 1 I
+X PF7 8 500 -350 200 L 50 50 1 1 I
+X PB1 9 500 -450 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:R
+#
+DEF ErgoTravel-rescue:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "ErgoTravel-rescue:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:SOLDER_JUMPER
+#
+DEF ~ErgoTravel-rescue:SOLDER_JUMPER SJ 0 40 Y Y 1 F N
+F0 "SJ" 0 -50 60 H V C CNN
+F1 "ErgoTravel-rescue:SOLDER_JUMPER" 50 150 60 H I C CNN
+F2 "" 50 0 60 H V C CNN
+F3 "" 50 0 60 H V C CNN
+DRAW
+S -50 100 0 0 0 1 0 F
+S 50 100 100 0 0 1 0 F
+X ~ 1 -100 50 50 R 50 50 1 1 P
+X ~ 2 150 50 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:SW_PUSH
+#
+DEF ErgoTravel-rescue:SW_PUSH SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "ErgoTravel-rescue:SW_PUSH" 0 -80 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -170 50 170 60 0 1 0 N
+P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
+X 1 1 -300 0 200 R 60 60 0 1 P I
+X 2 2 300 0 200 L 60 60 0 1 P I
+ENDDRAW
+ENDDEF
+#
+# ErgoTravel-rescue:VCC
+#
+DEF ErgoTravel-rescue:VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ErgoTravel-rescue:VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Switch:SW_SPDT
+#
+DEF Switch:SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "Switch:SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET:2N7002
+#
+DEF Transistor_FET:2N7002 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET:2N7002" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS 2N7002 MMBF170
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
