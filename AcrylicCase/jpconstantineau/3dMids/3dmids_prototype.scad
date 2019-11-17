@@ -199,7 +199,9 @@ linear_extrude(height = 12)
             rotate([90,0,leg3angle])
             {punch(6.6129);} 
             
-           translate([-12,3.0928,-1])cube([120,118,20]); 
+         //  translate([-12,3.0928,-1])cube([120,118,20]); //split
+            //translate([-12,3.0928-10,-1])cube([120,118,20]); //straight
+           // translate([-12,3.0928+30,-1])cube([120,118,20]); //angled
 
 }
 
