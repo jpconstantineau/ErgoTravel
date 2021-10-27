@@ -1,3 +1,7 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri D:/GIT/ErgoTravel/Library/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/../Library/footprints.pretty)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri "D:/Backup 2021/GIT/GIT/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri C:/GIT/kicad/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name Universal-Switch-Footprint)(type KiCad)(uri C:/GIT/Universal-Switch-Footprint-master/Universal-Switch-Footprint.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri C:/GIT/kicad/keyswitches.pretty)(options "")(descr ""))
 )

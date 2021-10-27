@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Audio-Jack-4
+# ErgoTravel-rescue_Audio-Jack-4
 #
-DEF Audio-Jack-4 J 0 40 Y Y 1 F N
+DEF ErgoTravel-rescue_Audio-Jack-4 J 0 40 Y Y 1 F N
 F0 "J" -50 80 50 H V C CNN
-F1 "Audio-Jack-4" 120 -370 50 H V C CNN
+F1 "ErgoTravel-rescue_Audio-Jack-4" 120 -370 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -24,11 +24,11 @@ X ~ 4 -200 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x01
+# ErgoTravel-rescue_Conn_01x01
 #
-DEF Conn_01x01 J 0 40 Y N 1 F N
+DEF ErgoTravel-rescue_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x01" 0 -100 50 H V C CNN
+F1 "ErgoTravel-rescue_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -46,11 +46,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x02
+# ErgoTravel-rescue_Conn_01x02
 #
-DEF Conn_01x02 J 0 40 Y N 1 F N
+DEF ErgoTravel-rescue_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Conn_01x02" 0 -200 50 H V C CNN
+F1 "ErgoTravel-rescue_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -70,11 +70,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x05
+# ErgoTravel-rescue_Conn_01x05
 #
-DEF Conn_01x05 J 0 40 Y N 1 F N
+DEF ErgoTravel-rescue_Conn_01x05 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Conn_01x05" 0 -300 50 H V C CNN
+F1 "ErgoTravel-rescue_Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +100,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x06
+# ErgoTravel-rescue_Conn_01x06
 #
-DEF Conn_01x06 J 0 40 Y N 1 F N
+DEF ErgoTravel-rescue_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "Conn_01x06" 0 -400 50 H V C CNN
+F1 "ErgoTravel-rescue_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -132,11 +132,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D
+# ErgoTravel-rescue_D
 #
-DEF D D 0 40 N N 1 F N
+DEF ErgoTravel-rescue_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D" 0 -100 50 H V C CNN
+F1 "ErgoTravel-rescue_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +155,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND
+# ErgoTravel-rescue_GND
 #
-DEF GND #PWR 0 0 Y Y 1 F P
+DEF ErgoTravel-rescue_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
+F1 "ErgoTravel-rescue_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -168,11 +168,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# KEYSW
+# ErgoTravel-rescue_KEYSW
 #
-DEF ~KEYSW K? 0 40 Y Y 1 F N
+DEF ErgoTravel-rescue_KEYSW K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "KEYSW" 0 -100 60 H I C CNN
+F1 "ErgoTravel-rescue_KEYSW" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -184,17 +184,32 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ProMicro
+# ErgoTravel-rescue_ProMicro
 #
-DEF ProMicro U 0 40 Y Y 1 F N
+DEF ErgoTravel-rescue_ProMicro U 0 40 Y Y 1 F N
 F0 "U" 0 -850 60 H V C CNN
-F1 "ProMicro" 0 450 60 H V C CNN
+F1 "ErgoTravel-rescue_ProMicro" 0 450 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
 S 300 400 -300 -800 0 1 0 N
 X RAW 1 500 350 200 L 50 50 1 1 I
+X PB3 10 500 -550 200 L 50 50 1 1 I
+X PB2 11 500 -650 200 L 50 50 1 1 I
+X PB6 12 500 -750 200 L 50 50 1 1 I
+X PD3 13 -500 350 200 R 50 50 1 1 I
+X PD2 14 -500 250 200 R 50 50 1 1 I
+X GND 15 -500 150 200 R 50 50 1 1 I
+X GND 16 -500 50 200 R 50 50 1 1 I
+X PD1 17 -500 -50 200 R 50 50 1 1 I
+X PD0 18 -500 -150 200 R 50 50 1 1 I
+X PD4 19 -500 -250 200 R 50 50 1 1 I
 X GND 2 500 250 200 L 50 50 1 1 I
+X PC6 20 -500 -350 200 R 50 50 1 1 I
+X PD7 21 -500 -450 200 R 50 50 1 1 I
+X PE6 22 -500 -550 200 R 50 50 1 1 I
+X PB4 23 -500 -650 200 R 50 50 1 1 I
+X PB5 24 -500 -750 200 R 50 50 1 1 I
 X RST 3 500 150 200 L 50 50 1 1 I
 X VCC 4 500 50 200 L 50 50 1 1 I
 X PF4 5 500 -50 200 L 50 50 1 1 I
@@ -202,29 +217,14 @@ X PF5 6 500 -150 200 L 50 50 1 1 I
 X PF6 7 500 -250 200 L 50 50 1 1 I
 X PF7 8 500 -350 200 L 50 50 1 1 I
 X PB1 9 500 -450 200 L 50 50 1 1 I
-X PB3 10 500 -550 200 L 50 50 1 1 I
-X PC6 20 -500 -350 200 R 50 50 1 1 I
-X PB2 11 500 -650 200 L 50 50 1 1 I
-X PD7 21 -500 -450 200 R 50 50 1 1 I
-X PB6 12 500 -750 200 L 50 50 1 1 I
-X PE6 22 -500 -550 200 R 50 50 1 1 I
-X PD3 13 -500 350 200 R 50 50 1 1 I
-X PB4 23 -500 -650 200 R 50 50 1 1 I
-X PD2 14 -500 250 200 R 50 50 1 1 I
-X PB5 24 -500 -750 200 R 50 50 1 1 I
-X GND 15 -500 150 200 R 50 50 1 1 I
-X GND 16 -500 50 200 R 50 50 1 1 I
-X PD1 17 -500 -50 200 R 50 50 1 1 I
-X PD0 18 -500 -150 200 R 50 50 1 1 I
-X PD4 19 -500 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# R
+# ErgoTravel-rescue_R
 #
-DEF R R 0 0 N Y 1 F N
+DEF ErgoTravel-rescue_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "R" 0 0 50 V V C CNN
+F1 "ErgoTravel-rescue_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -238,11 +238,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SOLDER_JUMPER
+# ErgoTravel-rescue_SOLDER_JUMPER
 #
-DEF ~SOLDER_JUMPER SJ 0 40 Y Y 1 F N
+DEF ErgoTravel-rescue_SOLDER_JUMPER SJ 0 40 Y Y 1 F N
 F0 "SJ" 0 -50 60 H V C CNN
-F1 "SOLDER_JUMPER" 50 150 60 H I C CNN
+F1 "ErgoTravel-rescue_SOLDER_JUMPER" 50 150 60 H I C CNN
 F2 "" 50 0 60 H V C CNN
 F3 "" 50 0 60 H V C CNN
 DRAW
@@ -253,11 +253,11 @@ X ~ 2 150 50 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SW_PUSH
+# ErgoTravel-rescue_SW_PUSH
 #
-DEF SW_PUSH SW 0 40 N N 1 F N
+DEF ErgoTravel-rescue_SW_PUSH SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "SW_PUSH" 0 -80 50 H V C CNN
+F1 "ErgoTravel-rescue_SW_PUSH" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -268,11 +268,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# SW_SPDT
+# ErgoTravel-rescue_SW_SPDT
 #
-DEF SW_SPDT SW 0 0 Y N 1 F N
+DEF ErgoTravel-rescue_SW_SPDT SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "SW_SPDT" 0 -200 50 H V C CNN
+F1 "ErgoTravel-rescue_SW_SPDT" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -286,17 +286,32 @@ X C 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# VCC
+# ErgoTravel-rescue_VCC
 #
-DEF VCC #PWR 0 0 Y Y 1 F P
+DEF ErgoTravel-rescue_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC" 0 150 50 H V C CNN
+F1 "ErgoTravel-rescue_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
